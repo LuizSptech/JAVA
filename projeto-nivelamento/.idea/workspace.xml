@@ -17,13 +17,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/school/sptech/OperacoesMatematicas.java" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3Hoekja660qus9UlhXOhbXIMlCz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,10 +43,12 @@
     "Application.laces.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/luiz/Área de trabalho/Exercicios/Java",
+    "last_opened_file_path": "/home/luiz/Área de trabalho/JAVA/nivelamento-variaveis-estruturas-condicionais-main",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/luiz/Área de trabalho/projeto-nivelamento/src/main/java/school/sptech/Main.java",
     "settings.editor.selected.configurable": "configurable.group.editor"
