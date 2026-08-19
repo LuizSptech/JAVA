@@ -11,7 +11,7 @@ public class Auxiliar {
 
     void dizerBomDia(){}
 
-
+    //Void -> o método não retorna nada
 
     void dizerBomDia(Integer quantidade){
         for (Integer i = 0; i < quantidade; i++) {
