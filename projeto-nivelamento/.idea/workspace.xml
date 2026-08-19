@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d68b1235-1a5b-48e6-b19b-683f0a33d3cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../aula-19.08/src/main/java/school/sptech/Auxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula-19.08/src/main/java/school/sptech/Auxiliar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula-19.08/src/main/java/school/sptech/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula-19.08/src/main/java/school/sptech/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula-19.08/src/main/java/school/sptech/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula-19.08/src/main/java/school/sptech/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d68b1235-1a5b-48e6-b19b-683f0a33d3cf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +48,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/luiz/Área de trabalho/JAVA/projeto-nivelamento",
+    "last_opened_file_path": "/home/luiz/Área de trabalho/JAVA/nivelamento-metodos-main",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/luiz/Área de trabalho/projeto-nivelamento/src/main/java/school/sptech/Main.java",
     "settings.editor.selected.configurable": "configurable.group.editor"
