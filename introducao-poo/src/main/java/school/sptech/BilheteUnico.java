@@ -46,4 +46,20 @@ public class BilheteUnico {
             saldo -= valorAPagar;
             return true;
        }
+
+
+
+       void printarInformacoes(){
+            String mensagem = """
+                    ---------------
+                    Titular: %s
+                    Numero: %s
+                    Saldo: %f
+                    Cor: %s
+                    isOld: %b
+                    isEstudent: %b
+                    ----------------
+                    """.formatted(titular,codigo,saldo,cor,isOld,isEsdudent);
+           System.out.println(mensagem);
+       }
     }
