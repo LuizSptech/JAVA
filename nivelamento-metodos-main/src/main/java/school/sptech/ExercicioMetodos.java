@@ -24,6 +24,9 @@ public class ExercicioMetodos {
     }
     Integer calcularFatorial(Integer valor){
         Integer fatorar = valor;
+        if (valor == 0){
+            return 1;
+        }
         for (int i = 1; i < valor; i++) {
              fatorar *= i;
 
@@ -46,19 +49,26 @@ public class ExercicioMetodos {
 
     Integer calcularPotencia(Integer base, Integer expoente){
         Integer output = base;
-        for (int i = 1; i < expoente; i++) {
+        if (expoente == 0){
+            return 1;
+        }
+        for (int i = 1; i < expoente; i++){
             output *= base;
         }
         return output;
     }
 
 
+    Integer calcularTrocoEmBalas(Double valorCompra, Double valorRecebido) {
+        Double troco = valorRecebido - valorCompra;
+        Integer balas = 0;
 
-
-
-
-
-}
-
-
-
+        if (troco == 0){
+            return 0;
+        }
+        for (Double i = 0.25; i <= troco; ) {
+            i += 0.25;
+            balas++;
+        }
+        return balas;
+    }}
