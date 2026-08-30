@@ -2,12 +2,17 @@ package school.sptech;
 
 public class Main {
     public static void main(String[] args) {
-        Aviso login = new Aviso();
-        login.nivel = "INFO";
+        Aviso teste = new Aviso();
 
 
-        login.login_feito("Luiz","1234","12345");
-        login.login_feito(null,null,null);
+
+
+        teste.Login("Luiz","1234","12345");
+        teste.Login(null,null,null);
+
+
+        teste.capturaDados(false);
+        teste.capturaDados(true);
 
     }
 }
