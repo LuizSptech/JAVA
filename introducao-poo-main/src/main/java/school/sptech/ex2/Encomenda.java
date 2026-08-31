@@ -8,13 +8,13 @@ public class Encomenda {
     Double valorProduto;
 
     Double calcularFrete(){
-        Double freteTotal;
-        Double valorAdicional;
+        Double freteTotal = 0.0;
+        Double valorAdicional = 0.0;
 
         if (tamanho.equals("P")){
             freteTotal += valorProduto * 0.01;
         }
-        if (tamanho.equals("M")){
+        else if (tamanho.equals("M")){
             freteTotal += valorProduto * 0.03;
         }else {
             freteTotal += valorProduto * 0.05;
@@ -23,7 +23,7 @@ public class Encomenda {
         if (distancia <= 50.0){
             valorAdicional = 3.0;
         }
-        if (distancia <= 200.0){
+        else if (distancia <= 200.0){
             valorAdicional = 5.0;
         }else {
             valorAdicional = 7.0;
@@ -32,13 +32,15 @@ public class Encomenda {
         return freteTotal;
     }
 
-    void aplicarCupomDeDesconto(Integer desconto){
-        valorProduto = valorProduto * (desconto / 100);
+    Double aplicarCupomDeDesconto(Integer desconto){
+
+        Double descontin = valorProduto * (desconto/100.0);
+        valorProduto = valorProduto - descontin;
+        return valorProduto;
     }
 
     Double valorTotalDaEncomenda(){
         calcularFrete();
-        Double montante = valorProduto;
-        return montante;
+        return 0.1;
     }
 }
