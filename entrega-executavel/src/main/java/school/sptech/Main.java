@@ -14,8 +14,8 @@ public class Main {
        teste.Login(lets);
             try {
                 Thread.sleep(8000);
-            } catch (InterruptedException e){
-                System.out.println("Erro");
+            } catch (InterruptedException e) {
+                System.out.println("Erro");;
             }
 
 

@@ -2,7 +2,7 @@ package school.sptech.ex2;
 
 public class Encomenda {
     String tamanho;
-    String enderecoRementente;
+    String enderecoRemetente;
     String enderecoDestinatario;
     Double distancia;
     Double valorProduto;
@@ -41,6 +41,7 @@ public class Encomenda {
 
     Double valorTotalDaEncomenda(){
         calcularFrete();
-        return 0.1;
+         valorProduto +=
+
     }
 }
