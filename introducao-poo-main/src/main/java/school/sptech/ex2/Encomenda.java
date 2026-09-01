@@ -40,8 +40,9 @@ public class Encomenda {
     }
 
     Double valorTotalDaEncomenda(){
-        calcularFrete();
-         valorProduto +=
+
+
+        return valorProduto + calcularFrete();
 
     }
 }
