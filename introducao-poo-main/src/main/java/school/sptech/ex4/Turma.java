@@ -6,72 +6,61 @@ public class Turma {
     Integer quantidadeAlunosMatriculados;
 
 
-
-
-    void matricularAluno(Integer quantidade) {
-        if (quantidade < 0) {
-            return;
+    Integer matricularAluno(Integer alunos){
+        Integer atualizado = 0;
+        if (alunos <= 0){
+            return 0;
+        }
+        Integer validacao = quantidadeAlunosMatriculados + alunos;
+        if (validacao > capacidadeMaxima){
+             atualizado = validacao - capacidadeMaxima;
+        }else {
+            quantidadeAlunosMatriculados += alunos;
+            return quantidadeAlunosMatriculados;
         }
 
-        if (quantidadeAlunosMatriculados + quantidade > capacidadeMaxima) {
-            return;
-        }
-
-        quantidadeAlunosMatriculados += quantidade;
+        return atualizado;
     }
-
-    Double encontrarMaiorNota(Double[] notas) {
-        Double maior = notas[0];
-
-        for (int i = 1; i < notas.length; i++) {
-            if (notas[i] > maior) {
-                maior = notas[i];
+    Double encontrarMaiorNota(Double[] notas){
+        Double maiorNota = notas[0];
+        for (int i = 0; i < notas.length;) {
+            if (maiorNota < notas[i]){
+                maiorNota = notas[i];
             }
+            i++;
         }
-
-        return maior;
-    }
-    Double calcularMediaTurma(Double[] notas) {
-        Double soma = 0.0;
-
-        for (Double nota : notas) {
-            soma += nota;
-        }
-
-        return soma / notas.length;
+        return maiorNota;
     }
 
-    Integer contarAprovados(Double[] notas) {
+
+    Double calcularMediaTurma(Double[] av){
+        Double Total = 0.0;
+        Double Medias = 0.0;
+        for (int i = 0; i < av.length; i++){
+            Total += av[i];
+            Medias = Total / av.length;
+        }
+        return Medias;
+    }
+
+    Integer contarAprovados(Double[] aprov){
         Integer aprovados = 0;
-
-        for (Double nota : notas) {
-            if (nota >= 6.0) {
+        for (int i = 0; i < aprov.length; i++) {
+            if (aprov[i] >= 6.0){
                 aprovados++;
             }
         }
-
         return aprovados;
     }
 
-    Boolean validarQuantidadeNotas(Double[] notas) {
-        return notas.length == quantidadeAlunosMatriculados;
-    }
 
-    Double encontrarNotaMaisProximaDaMedia(Double[] notas) {
-        Double media = calcularMediaTurma(notas);
+    Boolean validarQuantidadeNotas(Double[] QTN){
+        if (QTN.length > quantidadeAlunosMatriculados || QTN.length < quantidadeAlunosMatriculados){
+            return false;
 
-        Double notaMaisProxima = notas[0];
-        Double menorDiferenca = Math.abs(notas[0] - media);
-
-        for (int i = 1; i < notas.length; i++) {
-            Double diferenca = Math.abs(notas[i] - media);
-
-            if (diferenca < menorDiferenca) {
-                menorDiferenca = diferenca;
-                notaMaisProxima = notas[i];
-            }
         }
-
-        return notaMaisProxima;
+        return true;
     }
+
+
 }
