@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="20aae46a-4002-43ec-8449-f733a4ec30f0" name="Changes" comment="" />
+    <list default="true" id="ccb8a5e8-8cf5-4323-b9d9-2510dd200321" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,27 +13,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
+  "associatedIndex": 8,
   "fromUser": false
 }]]></component>
-  <component name="ProjectId" id="3I8Q3XvajC2f2vANqmHymXbbnn3" />
+  <component name="ProjectId" id="3Ipt91wzJGBffMx2TC4DmjvXJlm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/luiz/Área de trabalho/JAVA/aula-19.08",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/luiz/Área de trabalho/JAVA/Aula19.08/src/main/java/school/sptech/Main.java"
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -47,15 +42,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="20aae46a-4002-43ec-8449-f733a4ec30f0" name="Changes" comment="" />
-      <created>1787143518087</created>
+      <changelist id="ccb8a5e8-8cf5-4323-b9d9-2510dd200321" name="Changes" comment="" />
+      <created>1788473186148</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1787143518087</updated>
+      <updated>1788473186148</updated>
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
