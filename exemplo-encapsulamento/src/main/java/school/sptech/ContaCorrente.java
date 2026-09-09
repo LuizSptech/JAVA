@@ -71,19 +71,65 @@ public class ContaCorrente {
     }
 
 
-    public void printarInformacoes(){
-        String mensagem = """
-                =========================
-                Titular: %s
-                Numero: %s
-                Saldo: %.2f
-                Email: %s
-                Telefone: %s
-                =========================
-                """.formatted(titular,numero,saldo,email,telefone);
-        System.out.println(mensagem);
+
+
+    public void setTelefone(String telefone){
+        if (telefone == null || telefone.length() != 11){
+            System.out.println("Telefone invalido!");
+        }
+        this.telefone = telefone;
+        System.out.println("Telefone mudado");
+    }
+
+    public String getTelefone(){
+        return telefone;
+    }
+
+    public String getNumero() {
+        return numero;
     }
 
 
 
+    public String getTitular() {
+        return titular;
+    }
+
+    public void setTitular(String titular) {
+        this.titular = titular;
+    }
+
+    public Double getSaldo() {
+        return saldo;
+    }
+
+
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+
+    @Override
+    public String toString() {
+        return "ContaCorrente{" +
+                "numero='" + numero + '\'' +
+                ", titular='" + titular + '\'' +
+                ", saldo=" + saldo +
+                ", telefone='" + telefone + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }
+
+// Override
+// 1 - Atributos
+// 2 - Construtores
+// 3 - Metodos de regra de negocio
+// 4 - Getters e Setters
+// 5 - toString
+//alt + insert Getters e setters
