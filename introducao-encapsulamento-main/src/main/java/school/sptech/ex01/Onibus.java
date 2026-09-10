@@ -20,20 +20,23 @@ public class Onibus {
             System.out.println("Não há saldo suficiente para realizar operação");
             return;
         }
-        if (bilhete01.getEstudante() == true){
+        if (bilhete01.getEstudante() == true) {
             valorPassagem /= 2;
-            if (bilhete01.getSaldo() < valorPassagem){
+            if (bilhete01.getSaldo() < valorPassagem) {
                 return;
             }
-
             bilhete01.setSaldo(bilhete01.getSaldo() - valorPassagem);
             qtdPassageiros++;
             return;
         }
-        if (bilhete01.getSaldo() < 5){
+
+        if (bilhete01.getSaldo() < valorPassagem){
             return;
         }
+
+
         bilhete01.setSaldo(bilhete01.getSaldo() - valorPassagem);
+
         qtdPassageiros++;
 
     }
