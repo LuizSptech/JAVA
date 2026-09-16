@@ -21,18 +21,30 @@ public class Data {
 
 
     public void definirData(Integer dia, Integer mes, Integer ano){
+
+        if (dia == null || dia > 31 || dia < 1){
+            return;
+        }
+        if (ano == null || ano < 0){
+            return;
+        }
+        if ( mes == null ||mes < 1 || mes > 12 ){
+            return;
+        }
+        if (mes == 6 && dia > 30){
+            return;
+        }
+
+        if (mes == 4 && dia > 30){
+            return;
+        }
+        if ( dia > 28 && (mes == 2 && ano % 2 != 0)){
+            return;
+        }
+
         this.dia = dia;
         this.mes = mes;
         this.ano = ano;
-        if (dia == null || mes == null || ano == null){
-            return;
-        }
-        if ( mes < 1 || mes > 12 ){
-            return;
-        }
-        if (dia > 31 || dia < 1){
-            return;
-        }
     }
 
     public String formatarData(){
