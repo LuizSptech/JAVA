@@ -36,10 +36,11 @@ public class MusicaDao {
 
 
         public List<Musica> findByNomeLike(String nome){
-            String name = nome.toLowerCase();
+            String parametro = "%" + nome + "%";
+            String sql = "select * from musica where lower(nome) like lower(?)";
             List<Musica> musicas = jdbcTemplate.query(
-                    "SELECT * FROM musica WHERE nome ILIKE CONCAT('%', ? ,'%')",
-                    new BeanPropertyRowMapper<>(Musica.class),name);
+                    sql, new BeanPropertyRowMapper<>(Musica.class), parametro
+            );
 
             return musicas;
 

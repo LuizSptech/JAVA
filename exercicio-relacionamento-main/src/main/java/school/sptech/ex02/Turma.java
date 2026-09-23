@@ -144,7 +144,7 @@ public class Turma {
         return maiorNota - menorNota;
     }
 
-    public List<Aluno> encontrarAlunosComMesmaNota() {
+  /*  public List<Aluno> encontrarAlunosComMesmaNota() {
         List<Aluno> alunosComMesmaNota = new ArrayList<>();
 
         for (int i = 0; i < alunos.size(); i++) {
@@ -167,5 +167,20 @@ public class Turma {
         }
 
         return alunosComMesmaNota;
-    }
+    }*/
+   public List<Aluno> encontrarAlunosComMesmaNota() {
+       List<Aluno> filtrado = new ArrayList<>();
+       for (Aluno aluno : alunos) {
+           for (Aluno outro : alunos) {
+               if (aluno != outro
+                       && aluno.calcularNotaFinal().equals(outro.calcularNotaFinal())
+                       && !filtrado.contains(aluno)) {
+
+                   filtrado.add(aluno);
+               }
+           }
+       }
+    return filtrado;
+
+   }
 }
