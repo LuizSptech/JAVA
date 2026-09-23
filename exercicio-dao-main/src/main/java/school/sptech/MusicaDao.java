@@ -78,14 +78,31 @@ public class MusicaDao {
             return musicas;
         }
 
-        public void save(Musica musica){
-            if (musica.getId() == null){
+    public void save(Musica musica) {
+
+        if(musica.getId() == null) {
             jdbcTemplate.update(
-                    "INSERT INTO musica (nome,artista,album,duracao) values (?,?,?,?)",
-                        musica.getNome(),musica.getArtista(),musica.getAlbum(),musica.getDuracao());
-            }
-            jdbcTemplate.update(
-                    "UPDATE iINTO SET nome = ?, artista"
-            )
+                    "INSERT INTO musica (nome,artista,album,duracao) VALUES (?,?,?,?)"
+                    , musica.getNome(),musica.getArtista(),musica.getAlbum(),musica.getDuracao());
+
         }
+        jdbcTemplate.update(
+                "UPDATE musica SET nome = ?,artista = ?,album = ?,duracao = ? WHERE id = ?"
+                , musica.getNome(),musica.getArtista(),musica.getAlbum(),musica.getDuracao(),musica.getId());
+
+
+    }
+
+    public void deleteById(Integer id) {
+
+        if(id == null || id<0) {
+            return;
+        }
+
+        jdbcTemplate.update(
+                "DELETE FROM musica WHERE id = ?"
+                , id);
+    }
+
+
 }
