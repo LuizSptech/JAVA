@@ -179,7 +179,7 @@ public class Turma {
                    filtrado.add(aluno);
                }
            }
-       }
+       } == cat;
     return filtrado;
 
    }
