@@ -100,25 +100,40 @@ public class Consultoria {
     }
 
      public Desenvolvedor buscarMenorSalario(){
-        Double menorSalario = 0.0;
-        Double salarioDev = 0.0;
-         Double salarioWeb = 0.0;
-         Double salarioMob = 0.0;
-        Desenvolvedor menordev = desenvolvedores.get(0);
-         if (desenvolvedores.isEmpty()){
+         if (desenvolvedores.isEmpty()) {
              return null;
          }
-         for (Desenvolvedor desenvolvedore : desenvolvedores) {
-             if (desenvolvedore instanceof Desenvolvedor dev){
-                 salarioDev = dev.calcularSalario();
-             } else if (desenvolvedore instanceof DesenvolvedorWeb web) {
-                 salarioWeb = web.calcularSalario();
-             } else if (desenvolvedore instanceof ) {
-                 
+
+        Double salarioDev = Double.MAX_VALUE;
+
+
+         Desenvolvedor menor = null;
+
+         for (Desenvolvedor dev: desenvolvedores){
+             Double salario = dev.calcularSalario();
+             if (salario < salarioDev){
+                 salarioDev = salario;
+                 menor = dev;
              }
 
          }
-         return null;
+
+         return menor;
+     }
+
+
+     public Double calcularMediaSalarial(){
+        if (desenvolvedores.isEmpty()){
+            return 0.0;
+        }
+        Double media = 0.0;
+
+        for (Desenvolvedor dev: desenvolvedores){
+            System.out.println(dev.calcularSalario());
+            media += dev.calcularSalario();
+        }
+        media = media / desenvolvedores.size();
+        return media;
      }
 
 

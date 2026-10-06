@@ -64,7 +64,7 @@ public class Faculdade {
                 total += alunoPos.getNotaTcc();
                 quantidade++;
             }
-        }z
+        }
 
         return total / quantidade;
     }
