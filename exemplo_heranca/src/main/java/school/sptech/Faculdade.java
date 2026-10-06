@@ -54,7 +54,7 @@ public class Faculdade {
         for (Aluno aluno : alunos) {
             /*if (aluno instanceof AlunoPos){
                 //cast
-                AlunoPos alunoPos = (AlunoPos) aluno;
+                Aluno alunoPos = (AlunoPos) aluno;
                 total += alunoPos.getNotaTcc();
                 quantidade++;
             }*/
@@ -64,7 +64,7 @@ public class Faculdade {
                 total += alunoPos.getNotaTcc();
                 quantidade++;
             }
-        }
+        }z
 
         return total / quantidade;
     }
