@@ -1,0 +1,504 @@
+isbn;nome;titulo;autor;nota;preco_medio;editora;numero_paginas
+9788581960012;O Rio Quebrado;O Rio Quebrado: Uma jornada inesperada;Milton Hatoum;3.3;145.10;Objetiva;772
+9788537940266;O Rio Cinzento;O Rio Cinzento: Uma jornada inesperada;Ignácio de Loyola Brandão;4.4;139.13;Sextante;509
+9788559407815;Redes Avançado;Redes Avançado: Edição comentada;Liev Tolstói;3.0;36.34;Todavia;947
+9788534131643;Java Completo;Java Completo: Nova edição revisada;Natalia Borges Polesso;4.1;139.68;Darkside Books;126
+9788592832766;Cloud Moderno;Cloud Moderno: Contos e reflexões;Luis Fernando Verissimo;4.3;136.10;L&PM;153
+9788541395373;O Vento Perdido;O Vento Perdido: Uma jornada inesperada;Ferréz;4.6;156.76;Planeta;490
+9788596532877;Banco de Dados Moderno;Banco de Dados Moderno: Volume único;Jorge Amado;4.0;146.89;Rocco;518
+9788566978483;Espelho e Ponte;Espelho e Ponte: Guia definitivo;Margaret Atwood;4.5;91.67;Companhia das Letras;145
+9788562704826;A Jardim Cinzento;A Jardim Cinzento: Contos e reflexões;Eric Evans;4.5;77.73;Intrínseca;380
+9788528809572;Labirinto e Ponte;Labirinto e Ponte: Volume único;Clarice Lispector;4.1;45.88;Intrínseca;860
+9788517182273;Labirinto e Segredo;Labirinto e Segredo: Uma história de recomeços;Sam Newman;3.3;116.35;Novatec;160
+9788534657877;O Eco Profundo;O Eco Profundo: Uma jornada inesperada;Lygia Fagundes Telles;4.8;148.30;Objetiva;786
+9788510310512;O Vento Silencioso;O Vento Silencioso: Edição de colecionador;Eric Evans;4.0;119.93;Objetiva;87
+9788597376319;O Sonho Secreto;O Sonho Secreto: Volume único;Rachel de Queiroz;3.1;178.94;Autêntica;664
+9788506513330;O Silêncio Estranho;O Silêncio Estranho: Uma história de recomeços;Kent Beck;4.3;187.21;Planeta;180
+9788581080130;Banco de Dados para Iniciantes;Banco de Dados para Iniciantes: Um olhar contemporâneo;José de Alencar;3.3;176.86;Autêntica;533
+9788547468729;O Inverno Azul;O Inverno Azul: Uma história de recomeços;Érico Veríssimo;3.2;20.27;Principis;479
+9788597882087;O Verão Selvagem;O Verão Selvagem: Volume único;Jorge Amado;2.9;73.21;Novatec;131
+9788599091692;Algoritmos Moderno;Algoritmos Moderno: Lições de uma vida;Yuval Noah Harari;3.1;171.25;Martins Fontes;332
+9788547510794;O Horizonte Secreto;O Horizonte Secreto: Nova edição revisada;Yuval Noah Harari;3.3;87.18;Intrínseca;767
+9788535427844;Python Aplicado;Python Aplicado: Contos e reflexões;Carl Sagan;3.1;79.23;Martins Fontes;150
+9788524118241;Lógica Aplicado;Lógica Aplicado: Contos e reflexões;Ana Maria Machado;4.8;37.51;Nova Fronteira;979
+9788501640055;O Vento Secreto;O Vento Secreto: Contos e reflexões;Umberto Eco;3.9;62.59;Alta Books;946
+9788511280593;A Horizonte Invisível;A Horizonte Invisível: Um olhar contemporâneo;Sam Newman;4.0;92.61;Alta Books;89
+9788505331584;O Verão Dourado;O Verão Dourado: Nova edição revisada;Chimamanda Ngozi Adichie;4.8;155.24;Autêntica;961
+9788526025639;Sertão e Espelho;Sertão e Espelho: Uma jornada inesperada;Luis Fernando Verissimo;4.7;185.86;Novatec;910
+9788575433034;A Jardim Azul;A Jardim Azul: Uma história de recomeços;Ferréz;4.7;57.71;Aleph;916
+9788585014292;O Caminho Quebrado;O Caminho Quebrado: Nova edição revisada;Paulo Coelho;4.2;87.85;Rocco;943
+9788569340607;Segurança Avançado;Segurança Avançado: Nova edição revisada;Andrew Hunt;3.8;187.22;L&PM;198
+9788595148468;A Sertão Secreto;A Sertão Secreto: Nova edição revisada;Marina Colasanti;3.7;181.21;Todavia;418
+9788529946801;A Cidade Distante;A Cidade Distante: Uma jornada inesperada;Mario Quintana;3.7;179.76;Principis;773
+9788587214898;O Mapa Luminoso;O Mapa Luminoso: Nova edição revisada;Ignácio de Loyola Brandão;3.8;95.07;Record;298
+9788503791762;A Trem Antigo;A Trem Antigo: Contos e reflexões;Chimamanda Ngozi Adichie;3.3;53.75;Editora 34;105
+9788501632876;Dados Essencial;Dados Essencial: Um olhar contemporâneo;Carlos Drummond de Andrade;3.7;44.99;L&PM;784
+9788595798687;O Jardim Estranho;O Jardim Estranho: Guia definitivo;Bernardo Carvalho;4.6;133.39;Novatec;652
+9788587347145;A Sonho Estranho;A Sonho Estranho: Contos e reflexões;Itamar Vieira Junior;4.5;162.68;Sextante;363
+9788531665875;O Cidade Último;O Cidade Último: Guia definitivo;Daniel Galera;3.1;85.02;Rocco;236
+9788596705462;O Silêncio Azul;O Silêncio Azul: Edição de colecionador;Ursula K. Le Guin;4.9;23.22;Autêntica;863
+9788567065625;O Sertão Cinzento;O Sertão Cinzento: Edição de colecionador;Brandon Sanderson;4.8;102.90;Planeta;359
+9788501627209;Eco e Cidade;Eco e Cidade: Uma história de recomeços;Paulo Coelho;4.8;120.52;Todavia;758
+9788564170803;O Mar Esquecido;O Mar Esquecido: Nova edição revisada;Rubem Fonseca;4.5;84.35;Objetiva;850
+9788592327194;A Trem Perdido;A Trem Perdido: Uma história de recomeços;Milton Hatoum;4.9;53.79;Planeta;100
+9788512419046;A Trem Vermelho;A Trem Vermelho: Guia definitivo;Yuval Noah Harari;4.1;183.73;Todavia;815
+9788514919056;O Casa Secreto;O Casa Secreto: Edição comentada;Kent Beck;4.1;161.10;Autêntica;328
+9788516572624;A Caminho Infinito;A Caminho Infinito: Nova edição revisada;Gabriel Garcia Marquez;2.8;91.31;Martins Fontes;581
+9788594531476;Horizonte e Eco;Horizonte e Eco: Volume único;Itamar Vieira Junior;4.5;98.93;Planeta;925
+9788573545494;O Memória Azul;O Memória Azul: Nova edição revisada;Aldous Huxley;2.9;164.56;Sextante;266
+9788537770146;O Reino Secreto;O Reino Secreto: Edição comentada;Conceição Evaristo;3.3;88.99;Todavia;648
+9788585574444;A Labirinto Selvagem;A Labirinto Selvagem: Nova edição revisada;Conceição Evaristo;3.8;110.16;Intrínseca;515
+9788537498941;A Vento Eterno;A Vento Eterno: Volume único;Rachel de Queiroz;4.9;137.23;Editora Globo;276
+9788500842719;O Relógio Invisível;O Relógio Invisível: Contos e reflexões;Margaret Atwood;2.8;110.70;Companhia das Letras;360
+9788571167193;O Sonho Breve;O Sonho Breve: Um olhar contemporâneo;Stephen Hawking;3.5;184.03;Rocco;338
+9788569993865;Redes Completo;Redes Completo: Contos e reflexões;Bernardo Carvalho;3.0;62.09;Planeta;651
+9788513341230;O Mapa Profundo;O Mapa Profundo: Contos e reflexões;Monteiro Lobato;4.1;30.14;L&PM;837
+9788534471343;Arquitetura Essencial;Arquitetura Essencial: Um olhar contemporâneo;Agatha Christie;4.3;99.79;Editora 34;113
+9788521024996;A Inverno Profundo;A Inverno Profundo: Edição comentada;Fiódor Dostoiévski;4.0;130.00;Principis;352
+9788571906594;O Mar Dourado;O Mar Dourado: Lições de uma vida;Paulo Coelho;4.9;104.98;Companhia das Letras;585
+9788549027870;DevOps Completo;DevOps Completo: Edição de colecionador;Fiódor Dostoiévski;4.9;189.83;Sextante;768
+9788555125676;Testes Essencial;Testes Essencial: Um olhar contemporâneo;Ana Maria Machado;4.9;99.80;Todavia;498
+9788568087602;A Cidade Perdido;A Cidade Perdido: Um olhar contemporâneo;Érico Veríssimo;3.0;62.81;Martins Fontes;198
+9788524771095;O Trem Breve;O Trem Breve: Um olhar contemporâneo;Arthur Conan Doyle;4.5;54.50;Objetiva;642
+9788517127489;A Labirinto Cinzento;A Labirinto Cinzento: Uma história de recomeços;Haruki Murakami;4.0;35.75;Sextante;941
+9788521465843;O Cidade Distante;O Cidade Distante: Lições de uma vida;Neil Gaiman;3.2;121.79;Companhia das Letras;844
+9788578755881;O Labirinto Selvagem;O Labirinto Selvagem: Edição de colecionador;Adélia Prado;5.0;103.14;Planeta;232
+9788560576623;Inverno e Casa;Inverno e Casa: Uma jornada inesperada;Martin Fowler;4.1;59.61;Rocco;874
+9788570262172;Testes Avançado;Testes Avançado: Edição comentada;Agatha Christie;4.7;94.75;Sextante;618
+9788586578090;O Casa Azul;O Casa Azul: Edição comentada;Cecília Meireles;4.7;164.80;Objetiva;959
+9788517240058;A Labirinto Antigo;A Labirinto Antigo: Edição comentada;Agatha Christie;3.8;36.64;Rocco;728
+9788522219698;O Relógio Profundo;O Relógio Profundo: Guia definitivo;George Orwell;3.3;89.95;Objetiva;778
+9788507482178;O Mapa Distante;O Mapa Distante: Uma jornada inesperada;Rubem Fonseca;3.8;63.08;Editora 34;341
+9788571369597;O Silêncio Quebrado;O Silêncio Quebrado: Um olhar contemporâneo;Ana Maria Machado;4.7;53.77;Principis;473
+9788509743956;Lógica Essencial;Lógica Essencial: Contos e reflexões;Conceição Evaristo;2.8;166.96;Editora Globo;876
+9788570952141;A Memória Distante;A Memória Distante: Edição comentada;Marina Colasanti;4.8;129.78;Autêntica;396
+9788524745171;Banco de Dados Aplicado;Banco de Dados Aplicado: Nova edição revisada;Cecília Meireles;4.0;175.19;Alta Books;930
+9788548175497;A Segredo Azul;A Segredo Azul: Volume único;Adélia Prado;3.6;154.32;Darkside Books;94
+9788593174612;Python do Zero ao Profissional;Python do Zero ao Profissional: Uma história de recomeços;Ariano Suassuna;4.2;180.24;Rocco;415
+9788567586922;Labirinto e Sonho;Labirinto e Sonho: Edição comentada;Chimamanda Ngozi Adichie;3.0;170.73;Autêntica;218
+9788553773510;A Sonho Luminoso;A Sonho Luminoso: Lições de uma vida;George Orwell;4.9;67.46;Darkside Books;786
+9788571390058;O Ponte Vermelho;O Ponte Vermelho: Uma história de recomeços;Itamar Vieira Junior;3.7;52.17;Alta Books;205
+9788535290424;A Inverno Último;A Inverno Último: Volume único;Ariano Suassuna;3.3;56.61;L&PM;970
+9788539502400;O Farol Eterno;O Farol Eterno: Uma história de recomeços;Ariano Suassuna;3.1;80.80;Autêntica;887
+9788517839085;O Sertão Último;O Sertão Último: Um olhar contemporâneo;Mario Quintana;3.8;81.45;Planeta;687
+9788577115921;O Rio Perdido;O Rio Perdido: Um olhar contemporâneo;Cecília Meireles;4.7;92.37;Alta Books;190
+9788584789610;O Ponte Selvagem;O Ponte Selvagem: Volume único;Agatha Christie;4.4;84.65;Intrínseca;691
+9788536576619;Ponte e Trem;Ponte e Trem: Volume único;Marina Colasanti;4.4;56.45;Autêntica;542
+9788511615289;O Horizonte Vermelho;O Horizonte Vermelho: Guia definitivo;Carlos Drummond de Andrade;4.3;100.53;Editora 34;173
+9788560494514;Cidade e Vento;Cidade e Vento: Edição comentada;Yuval Noah Harari;3.7;168.41;Martins Fontes;848
+9788551493687;O Memória Breve;O Memória Breve: Uma jornada inesperada;Umberto Eco;4.7;79.42;Nova Fronteira;649
+9788540244559;A Ponte Cinzento;A Ponte Cinzento: Uma história de recomeços;Machado de Assis;4.1;131.73;Novatec;790
+9788518366757;Mapa e Memória;Mapa e Memória: Lições de uma vida;José de Alencar;3.0;145.86;Darkside Books;111
+9788590147671;O Vento Selvagem;O Vento Selvagem: Edição de colecionador;Jared Diamond;3.0;28.84;Planeta;241
+9788597840360;O Inverno Infinito;O Inverno Infinito: Edição comentada;Jared Diamond;3.6;38.75;Rocco;774
+9788507622680;Java Moderno;Java Moderno: Guia definitivo;Haruki Murakami;4.5;69.11;Objetiva;202
+9788507159698;O Memória Vermelho;O Memória Vermelho: Edição comentada;Ferréz;3.7;146.05;Autêntica;526
+9788551613696;O Território Silencioso;O Território Silencioso: Nova edição revisada;Ferréz;3.2;180.99;Martins Fontes;551
+9788581883557;Lógica para Iniciantes;Lógica para Iniciantes: Nova edição revisada;Gabriel Garcia Marquez;3.3;152.35;Alta Books;158
+9788512779973;O Espelho Quebrado;O Espelho Quebrado: Uma jornada inesperada;George Orwell;3.2;45.89;Editora 34;857
+9788544905814;A Eco Esquecido;A Eco Esquecido: Nova edição revisada;Mario Quintana;3.1;31.51;Planeta;532
+9788519986794;O Verão Vermelho;O Verão Vermelho: Contos e reflexões;Sam Newman;3.0;166.82;Rocco;955
+9788571518209;O Mapa Secreto;O Mapa Secreto: Nova edição revisada;Itamar Vieira Junior;4.1;105.13;Planeta;143
+9788566590517;Reino e Reino;Reino e Reino: Edição de colecionador;Ignácio de Loyola Brandão;3.1;83.28;Intrínseca;369
+9788525192547;O Território Dourado;O Território Dourado: Contos e reflexões;Mary Shelley;4.4;131.52;Todavia;697
+9788528168501;Dados Descomplicado;Dados Descomplicado: Contos e reflexões;Lima Barreto;4.0;129.29;Principis;416
+9788514188803;Python Avançado;Python Avançado: Um olhar contemporâneo;Jane Austen;3.2;189.90;Aleph;238
+9788592706531;Eco e Espelho;Eco e Espelho: Edição de colecionador;Bernardo Carvalho;3.6;47.48;Nova Fronteira;931
+9788573597745;O Sertão Estranho;O Sertão Estranho: Uma jornada inesperada;Umberto Eco;4.0;72.51;Todavia;908
+9788507581819;O Silêncio Invisível;O Silêncio Invisível: Uma jornada inesperada;Ana Maria Machado;4.6;43.43;Record;336
+9788575060681;A Horizonte Estranho;A Horizonte Estranho: Volume único;Lima Barreto;3.1;94.27;Objetiva;307
+9788552204725;O Caminho Vermelho;O Caminho Vermelho: Uma jornada inesperada;Jorge Luis Borges;2.9;178.14;Zahar;939
+9788598614342;O Rio Último;O Rio Último: Uma história de recomeços;Lygia Fagundes Telles;3.4;161.84;Rocco;641
+9788598089324;O Ponte Luminoso;O Ponte Luminoso: Um olhar contemporâneo;Ana Maria Machado;2.9;162.14;Autêntica;591
+9788588880672;O Farol Último;O Farol Último: Volume único;Graciliano Ramos;4.9;31.41;Todavia;618
+9788519520585;Horizonte e Sertão;Horizonte e Sertão: Uma história de recomeços;Ignácio de Loyola Brandão;3.6;31.39;Novatec;326
+9788570430304;A Memória Estranho;A Memória Estranho: Um olhar contemporâneo;Marina Colasanti;4.2;157.85;Principis;144
+9788550541563;O Cidade Breve;O Cidade Breve: Contos e reflexões;Chimamanda Ngozi Adichie;2.9;129.87;Todavia;372
+9788584161690;A Território Esquecido;A Território Esquecido: Guia definitivo;Neil Gaiman;3.9;104.48;Novatec;896
+9788596275705;O Vento Eterno;O Vento Eterno: Edição comentada;Gabriel Garcia Marquez;3.5;70.16;Darkside Books;536
+9788582029701;A Silêncio Quebrado;A Silêncio Quebrado: Uma história de recomeços;Ariano Suassuna;3.0;128.28;Record;452
+9788557192850;O Mapa Perdido;O Mapa Perdido: Edição de colecionador;Ferréz;3.1;96.39;Aleph;459
+9788581447391;A Segredo Eterno;A Segredo Eterno: Uma história de recomeços;Ana Maria Machado;4.4;104.74;Zahar;476
+9788555188442;O Espelho Último;O Espelho Último: Um olhar contemporâneo;Ursula K. Le Guin;3.2;141.17;Novatec;169
+9788523705893;A Casa Invisível;A Casa Invisível: Nova edição revisada;Lima Barreto;3.9;40.53;Planeta;285
+9788586691256;A Caminho Último;A Caminho Último: Contos e reflexões;Mary Shelley;3.7;141.78;Record;570
+9788592268015;O Memória Infinito;O Memória Infinito: Nova edição revisada;Andrew Hunt;3.1;160.84;Alta Books;644
+9788514384243;O Farol Esquecido;O Farol Esquecido: Uma jornada inesperada;Carl Sagan;3.6;179.85;L&PM;370
+9788599590010;DevOps Passo a Passo;DevOps Passo a Passo: Edição de colecionador;Graciliano Ramos;4.9;46.11;Editora 34;754
+9788584473649;O Inverno Selvagem;O Inverno Selvagem: Lições de uma vida;Natalia Borges Polesso;4.2;25.05;Record;722
+9788525556257;A Farol Estranho;A Farol Estranho: Lições de uma vida;Eric Evans;3.9;54.58;L&PM;701
+9788596325950;Microsserviços Moderno;Microsserviços Moderno: Guia definitivo;Érico Veríssimo;3.0;69.24;Novatec;473
+9788568733950;O Reino Estranho;O Reino Estranho: Um olhar contemporâneo;Carlos Drummond de Andrade;4.7;104.45;Rocco;172
+9788524565069;O Eco Breve;O Eco Breve: Contos e reflexões;Carlos Drummond de Andrade;4.0;163.92;Editora 34;521
+9788584991211;O Relógio Cinzento;O Relógio Cinzento: Contos e reflexões;Ferréz;3.0;105.62;Darkside Books;862
+9788568000250;A Vento Cinzento;A Vento Cinzento: Nova edição revisada;Arthur Conan Doyle;4.5;53.74;Zahar;601
+9788526949584;O Espelho Luminoso;O Espelho Luminoso: Volume único;Brandon Sanderson;3.1;178.23;Martins Fontes;406
+9788516940973;O Casa Selvagem;O Casa Selvagem: Contos e reflexões;Paulo Coelho;3.8;22.73;Editora 34;419
+9788596230919;O Sertão Perdido;O Sertão Perdido: Edição de colecionador;Érico Veríssimo;3.9;109.02;Companhia das Letras;818
+9788597028386;O Silêncio Distante;O Silêncio Distante: Lições de uma vida;Marina Colasanti;4.3;89.66;Zahar;873
+9788549733481;O Vento Invisível;O Vento Invisível: Um olhar contemporâneo;Mario Quintana;4.8;78.10;Objetiva;442
+9788557584419;Labirinto e Trem;Labirinto e Trem: Contos e reflexões;Yuval Noah Harari;4.4;137.24;L&PM;580
+9788515747337;O Território Vermelho;O Território Vermelho: Guia definitivo;Neil Gaiman;3.4;68.80;L&PM;811
+9788530833015;O Cidade Quebrado;O Cidade Quebrado: Guia definitivo;Daniel Galera;3.0;145.85;Aleph;325
+9788567734545;A Jardim Distante;A Jardim Distante: Uma história de recomeços;Mary Shelley;4.9;186.14;Rocco;241
+9788502620674;Caminho e Ponte;Caminho e Ponte: Edição de colecionador;Monteiro Lobato;3.3;145.48;Principis;950
+9788547887285;Rio e Labirinto;Rio e Labirinto: Edição de colecionador;Natalia Borges Polesso;4.1;177.74;Sextante;423
+9788520549322;Algoritmos Avançado;Algoritmos Avançado: Guia definitivo;Carl Sagan;4.4;130.11;Todavia;815
+9788575304631;A Reino Esquecido;A Reino Esquecido: Edição comentada;Bernardo Carvalho;3.7;36.12;Sextante;223
+9788530174262;Labirinto e Mapa;Labirinto e Mapa: Edição de colecionador;George Orwell;2.8;131.03;Martins Fontes;789
+9788559332728;Casa e Trem;Casa e Trem: Contos e reflexões;Natalia Borges Polesso;4.3;128.48;Nova Fronteira;382
+9788533918788;O Casa Cinzento;O Casa Cinzento: Um olhar contemporâneo;Haruki Murakami;4.5;156.24;Darkside Books;925
+9788598225876;Testes Descomplicado;Testes Descomplicado: Uma história de recomeços;Lygia Fagundes Telles;4.6;173.39;Editora Globo;287
+9788586790874;A Sonho Último;A Sonho Último: Volume único;George Orwell;3.8;29.36;Principis;215
+9788565180177;A Território Quebrado;A Território Quebrado: Uma história de recomeços;Graciliano Ramos;4.4;118.21;Principis;126
+9788566182514;O Trem Distante;O Trem Distante: Lições de uma vida;Monteiro Lobato;3.6;171.43;L&PM;539
+9788586863370;O Espelho Antigo;O Espelho Antigo: Uma história de recomeços;Rubem Fonseca;4.5;186.24;Alta Books;554
+9788503311908;O Sertão Eterno;O Sertão Eterno: Uma história de recomeços;Bernardo Carvalho;4.6;91.17;Nova Fronteira;864
+9788502843950;A Verão Antigo;A Verão Antigo: Uma história de recomeços;Yuval Noah Harari;3.7;59.74;Nova Fronteira;302
+9788536440897;A Vento Antigo;A Vento Antigo: Contos e reflexões;Chimamanda Ngozi Adichie;4.7;187.47;Novatec;613
+9788568566244;A Silêncio Cinzento;A Silêncio Cinzento: Um olhar contemporâneo;Adélia Prado;2.9;78.45;Novatec;738
+9788570866882;A Sonho Antigo;A Sonho Antigo: Uma jornada inesperada;Ariano Suassuna;3.5;140.19;Todavia;905
+9788583046998;O Inverno Esquecido;O Inverno Esquecido: Edição comentada;Graciliano Ramos;4.8;163.91;Record;174
+9788503317399;A Cidade Secreto;A Cidade Secreto: Um olhar contemporâneo;Haruki Murakami;3.3;174.10;Editora Globo;390
+9788554458775;O Segredo Cinzento;O Segredo Cinzento: Nova edição revisada;Rachel de Queiroz;4.5;84.61;Zahar;626
+9788532048998;A Vento Secreto;A Vento Secreto: Nova edição revisada;Gabriel Garcia Marquez;3.5;27.67;Autêntica;964
+9788547772529;O Mapa Antigo;O Mapa Antigo: Um olhar contemporâneo;Ariano Suassuna;4.0;180.29;L&PM;425
+9788500623127;O Cidade Perdido;O Cidade Perdido: Volume único;Machado de Assis;2.9;163.84;Editora Globo;917
+9788570088604;O Relógio Perdido;O Relógio Perdido: Edição de colecionador;Clarice Lispector;4.2;178.66;Martins Fontes;574
+9788521182337;A Cidade Dourado;A Cidade Dourado: Uma história de recomeços;Carl Sagan;3.9;138.54;Martins Fontes;520
+9788593341014;O Relógio Quebrado;O Relógio Quebrado: Lições de uma vida;Ferréz;3.0;182.98;Todavia;550
+9788565918039;O Sonho Perdido;O Sonho Perdido: Uma história de recomeços;Milton Hatoum;4.3;33.96;Editora 34;945
+9788525039262;O Verão Último;O Verão Último: Contos e reflexões;Liev Tolstói;4.8;115.70;Record;113
+9788518501639;O Território Cinzento;O Território Cinzento: Nova edição revisada;Brandon Sanderson;3.6;145.66;Record;889
+9788547735869;O Trem Luminoso;O Trem Luminoso: Edição de colecionador;Chico Buarque;3.7;151.40;Novatec;110
+9788511426267;A Memória Azul;A Memória Azul: Edição comentada;Marina Colasanti;4.5;70.11;Darkside Books;332
+9788512678887;Arquitetura para Iniciantes;Arquitetura para Iniciantes: Um olhar contemporâneo;Daniel Galera;3.6;65.76;Intrínseca;215
+9788560466184;Cloud Aplicado;Cloud Aplicado: Edição comentada;Elena Ferrante;4.1;153.25;Objetiva;964
+9788521264644;O Farol Azul;O Farol Azul: Guia definitivo;Robert C. Martin;3.1;71.09;Record;584
+9788540659650;O Segredo Breve;O Segredo Breve: Edição de colecionador;Bernardo Carvalho;4.2;97.74;Aleph;218
+9788554793562;Cloud Completo;Cloud Completo: Uma jornada inesperada;Luis Fernando Verissimo;3.9;50.10;Todavia;487
+9788537416723;O Cidade Invisível;O Cidade Invisível: Volume único;Stephen Hawking;2.9;143.53;Principis;805
+9788579688683;O Memória Distante;O Memória Distante: Lições de uma vida;Graciliano Ramos;4.5;32.47;Darkside Books;692
+9788552909651;A Cidade Luminoso;A Cidade Luminoso: Edição comentada;Agatha Christie;3.0;62,10;Autêntica;760
+9788593756795;Algoritmos para Iniciantes;Algoritmos para Iniciantes: Uma jornada inesperada;Aldous Huxley;3.9;108.10;Martins Fontes;674
+9788512545738;Arquitetura do Zero ao Profissional;Arquitetura do Zero ao Profissional: Edição comentada;Andrew Hunt;3.4;176.39;Zahar;167
+9788505123820;A Mar Esquecido;A Mar Esquecido: Edição comentada;Sam Newman;3.5;157.63;Novatec;197
+9788593796609;O Território Invisível;O Território Invisível: Guia definitivo;Haruki Murakami;4.2;93.36;Editora Globo;109
+9788555371479;O Trem Último;O Trem Último: Edição de colecionador;Andrew Hunt;3.0;168.14;Aleph;271
+9788592499129;O Eco Azul;O Eco Azul: Edição de colecionador;Marina Colasanti;3.1;79.74;Intrínseca;548
+9788592966270;O Jardim Invisível;O Jardim Invisível: Nova edição revisada;Stephen Hawking;4.3;106.74;L&PM;508
+9788557905078;A Ponte Invisível;A Ponte Invisível: Volume único;Ariano Suassuna;3.2;69.00;Editora Globo;271
+9788577219032;A Cidade Infinito;A Cidade Infinito: Um olhar contemporâneo;Ana Maria Machado;3.7;103.49;Rocco;807
+9788578819149;O Cidade Dourado;O Cidade Dourado: Guia definitivo;Umberto Eco;4.5;116.06;L&PM;871
+9788561340742;A Relógio Cinzento;A Relógio Cinzento: Uma história de recomeços;Rubem Fonseca;4.5;94.93;Record;303
+9788596292337;O Jardim Antigo;O Jardim Antigo: Uma jornada inesperada;Arthur Conan Doyle;4.6;119.85;Rocco;439
+9788512604220;Labirinto e Labirinto;Labirinto e Labirinto: Edição de colecionador;Itamar Vieira Junior;3.4;165.76;Alta Books;775
+9788516845773;O Mapa Quebrado;O Mapa Quebrado: Lições de uma vida;Marina Colasanti;3.6;32.74;Editora 34;893
+9788518636379;Redes Descomplicado;Redes Descomplicado: Um olhar contemporâneo;Luis Fernando Verissimo;4.2;138.44;Aleph;950
+9788517012778;O Mapa Breve;O Mapa Breve: Nova edição revisada;Machado de Assis;4.8;149.48;Autêntica;127
+9788515415205;O Casa Distante;O Casa Distante: Contos e reflexões;Ferréz;3.1;178.46;Principis;360
+9788538700517;O Caminho Eterno;O Caminho Eterno: Uma história de recomeços;Margaret Atwood;3.3;33.15;Autêntica;687
+9788522189090;Cloud para Iniciantes;Cloud para Iniciantes: Guia definitivo;Mary Shelley;3.6;158.17;Novatec;975
+9788531121968;O Sertão Secreto;O Sertão Secreto: Guia definitivo;Rubem Fonseca;4.8;124.63;Autêntica;533
+9788504389838;O Caminho Antigo;O Caminho Antigo: Volume único;Isabel Allende;4.1;142.50;Todavia;371
+9788591805525;O Verão Antigo;O Verão Antigo: Um olhar contemporâneo;Adélia Prado;3.6;60.88;Editora 34;733
+9788500684869;A Trem Último;A Trem Último: Uma história de recomeços;Chico Buarque;4.1;22.24;Todavia;300
+9788583285694;APIs Aplicado;APIs Aplicado: Edição de colecionador;Stephen Hawking;3.1;34.11;Record;160
+9788579904219;O Silêncio Antigo;O Silêncio Antigo: Uma história de recomeços;Machado de Assis;3.3;177.09;Alta Books;198
+9788542524109;A Farol Breve;A Farol Breve: Nova edição revisada;Ignácio de Loyola Brandão;4.0;153.01;Autêntica;818
+9788592524197;A Mapa Último;A Mapa Último: Um olhar contemporâneo;George Orwell;3.8;81.12;Intrínseca;591
+9788575622087;O Reino Silencioso;O Reino Silencioso: Uma história de recomeços;Arthur Conan Doyle;4.7;21.99;Autêntica;127
+9788518023803;O Segredo Profundo;O Segredo Profundo: Nova edição revisada;Ferréz;3.4;33.14;Record;461
+9788594937599;A Vento Último;A Vento Último: Volume único;Martin Fowler;3.8;82.62;Editora Globo;378
+9788585050641;A Cidade Antigo;A Cidade Antigo: Guia definitivo;Rachel de Queiroz;2.8;89.61;Editora Globo;318
+9788586571916;O Verão Distante;O Verão Distante: Contos e reflexões;Eric Evans;3.0;176.52;Alta Books;945
+9788534456555;A Território Último;A Território Último: Edição de colecionador;Bernardo Carvalho;4.0;93.85;Sextante;213
+9788575618530;O Inverno Distante;O Inverno Distante: Edição de colecionador;Bernardo Carvalho;3.0;37.86;Principis;540
+9788590352136;O Jardim Último;O Jardim Último: Guia definitivo;Rubem Fonseca;4.6;71.62;Todavia;801
+9788578831714;O Memória Dourado;O Memória Dourado: Contos e reflexões;Arthur Conan Doyle;4.6;49.46;Alta Books;494
+9788519941014;Arquitetura Moderno;Arquitetura Moderno: Guia definitivo;Érico Veríssimo;3.2;88.00;Planeta;782
+9788596670661;A Caminho Esquecido;A Caminho Esquecido: Edição comentada;Monteiro Lobato;2.9;98.27;Darkside Books;252
+9788599347683;O Farol Quebrado;O Farol Quebrado: Contos e reflexões;Robert C. Martin;3.8;45.17;Rocco;708
+9788538065784;Segurança Passo a Passo;Segurança Passo a Passo: Lições de uma vida;Agatha Christie;3.2;170.29;Zahar;618
+9788593040788;O Mapa Infinito;O Mapa Infinito: Nova edição revisada;Rubem Fonseca;3.7;50.47;Editora 34;406
+9788503965224;Farol e Jardim;Farol e Jardim: Uma jornada inesperada;Itamar Vieira Junior;4.2;65.21;Editora 34;915
+9788592937843;O Sertão Vermelho;O Sertão Vermelho: Edição de colecionador;Monteiro Lobato;2.9;139.00;Zahar;661
+9788525250025;O Rio Infinito;O Rio Infinito: Um olhar contemporâneo;Daniel Kahneman;2.8;175.94;Alta Books;286
+9788591545223;A Reino Vermelho;A Reino Vermelho: Edição comentada;Gabriel Garcia Marquez;3.6;180.03;Autêntica;485
+9788553926442;A Sonho Esquecido;A Sonho Esquecido: Guia definitivo;Ariano Suassuna;4.4;115.44;Novatec;708
+9788502959392;A Casa Selvagem;A Casa Selvagem: Lições de uma vida;Rachel de Queiroz;4.7;150.94;Zahar;661
+9788567658612;O Jardim Silencioso;O Jardim Silencioso: Uma história de recomeços;Brandon Sanderson;3.6;144.44;Zahar;250
+9788540541153;A Mapa Antigo;A Mapa Antigo: Guia definitivo;José de Alencar;3.8;155.76;Todavia;114
+9788506296202;Algoritmos Aplicado;Algoritmos Aplicado: Edição comentada;Rachel de Queiroz;3.5;187.40;Aleph;574
+9788544310694;O Inverno Profundo;O Inverno Profundo: Volume único;Sam Newman;4.4;144.00;Zahar;351
+9788597310320;Cloud na Prática;Cloud na Prática: Lições de uma vida;Stephen Hawking;3.0;159.96;Principis;720
+9788541862561;Sonho e Jardim;Sonho e Jardim: Contos e reflexões;Lima Barreto;4.5;99.96;Novatec;756
+9788502115866;O Horizonte Estranho;O Horizonte Estranho: Um olhar contemporâneo;Jorge Luis Borges;3.4;162.20;Editora 34;657
+9788579374166;O Verão Azul;O Verão Azul: Volume único;Elena Ferrante;3.7;110.94;Rocco;967
+9788522332069;O Reino Selvagem;O Reino Selvagem: Edição de colecionador;Jorge Amado;3.1;181.27;Autêntica;539
+9788511686852;O Ponte Distante;O Ponte Distante: Edição de colecionador;Ursula K. Le Guin;3.4;174.74;Sextante;906
+9788522999118;O Rio Luminoso;O Rio Luminoso: Edição de colecionador;Yuval Noah Harari;3.9;91.23;Intrínseca;504
+9788597024623;A Cidade Vermelho;A Cidade Vermelho: Lições de uma vida;Carl Sagan;3.4;131.21;Nova Fronteira;665
+9788507450542;A Território Perdido;A Território Perdido: Lições de uma vida;Mario Quintana;4.8;76.25;Sextante;323
+
+9788554691370;A Casa Eterno;A Casa Eterno: Uma jornada inesperada;Milton Hatoum;3.1;185.52;Autêntica;533
+9788514862895;A Trem Infinito;A Trem Infinito: Nova edição revisada;Clarice Lispector;4.6;107.50;Novatec;242
+9788534578615;Lógica Moderno;Lógica Moderno: Uma história de recomeços;George Orwell;3.3;97.50;Companhia das Letras;449
+9788585524142;O Sonho Luminoso;O Sonho Luminoso: Um olhar contemporâneo;Clarice Lispector;3.2;167.88;Todavia;680
+9788534680073;Lógica Completo;Lógica Completo: Uma jornada inesperada;Fiódor Dostoiévski;4.7;129.95;Alta Books;773
+9788546657438;A Eco Silencioso;A Eco Silencioso: Uma jornada inesperada;Natalia Borges Polesso;3.4;156.76;Principis;392
+9788558994415;A Eco Azul;A Eco Azul: Edição de colecionador;Robert C. Martin;3.0;106.86;Record;758
+9788543283098;O Horizonte Esquecido;O Horizonte Esquecido: Contos e reflexões;Ferréz;3.4;140.79;Aleph;747
+9788566099355;A Sertão Silencioso;A Sertão Silencioso: Um olhar contemporâneo;Gabriel Garcia Marquez;5.0;64.00;Objetiva;508
+9788582417249;A Ponte Breve;A Ponte Breve: Nova edição revisada;Gabriel Garcia Marquez;3.9;163.62;L&PM;940
+9788546554942;A Farol Esquecido;A Farol Esquecido: Edição comentada;Natalia Borges Polesso;3.3;57.87;Intrínseca;972
+
+9788568460221;O Eco Último;O Eco Último: Um olhar contemporâneo;Érico Veríssimo;4.8;104.98;Aleph;968
+9788517525001;O Mapa Estranho;O Mapa Estranho: Guia definitivo;Bernardo Carvalho;3.5;141.56;Sextante;877
+9788512966663;O Trem Invisível;O Trem Invisível: Edição de colecionador;Robert C. Martin;4.5;103.13;Todavia;861
+9788583003359;APIs Moderno;APIs Moderno: Nova edição revisada;Mario Quintana;4.9;171.54;Alta Books;855
+9788547898564;APIs Completo;APIs Completo: Contos e reflexões;Chimamanda Ngozi Adichie;3.2;159.95;Alta Books;385
+9788560332304;O Sonho Vermelho;O Sonho Vermelho: Uma jornada inesperada;Daniel Kahneman;3.2;174.07;Martins Fontes;911
+9788510016766;O Ponte Quebrado;O Ponte Quebrado: Volume único;Lygia Fagundes Telles;4.2;120.87;L&PM;129
+9788549926180;O Memória Silencioso;O Memória Silencioso: Contos e reflexões;Gabriel Garcia Marquez;3.7;37.07;Nova Fronteira;612
+9788583564201;Algoritmos Descomplicado;Algoritmos Descomplicado: Um olhar contemporâneo;Sam Newman;3.2;53.86;Zahar;349
+9788519721814;Casa e Sonho;Casa e Sonho: Nova edição revisada;Gabriel Garcia Marquez;3.3;22.07;Intrínseca;171
+9788501204554;Ponte e Segredo;Ponte e Segredo: Um olhar contemporâneo;Chico Buarque;5.0;70.22;Intrínseca;555
+
+9788555794155;Redes na Prática;Redes na Prática: Uma história de recomeços;Neil Gaiman;4.7;132.67;Aleph;254
+9788576212027;Segurança Essencial;Segurança Essencial: Um olhar contemporâneo;Rachel de Queiroz;3.4;85.47;Autêntica;951
+9788590277163;Sonho e Mapa;Sonho e Mapa: Um olhar contemporâneo;Bernardo Carvalho;3.2;84.46;Rocco;447
+9788599358894;DevOps Avançado;DevOps Avançado: Uma história de recomeços;Rachel de Queiroz;4.4;135.15;Autêntica;865
+9788589002875;A Segredo Breve;A Segredo Breve: Nova edição revisada;Ursula K. Le Guin;4.3;128.94;Zahar;232
+9788508386635;Caminho e Trem;Caminho e Trem: Um olhar contemporâneo;Jorge Amado;3.5;76.15;Planeta;364
+9788501660886;Microsserviços do Zero ao Profissional;Microsserviços do Zero ao Profissional: Nova edição revisada;Machado de Assis;3.1;104.45;Record;749
+9788555037580;A Eco Dourado;A Eco Dourado: Volume único;Umberto Eco;4.0;131.18;Nova Fronteira;547
+9788505548852;O Casa Vermelho;O Casa Vermelho: Um olhar contemporâneo;Aldous Huxley;3.1;148.98;Intrínseca;307
+9788514933168;Banco de Dados do Zero ao Profissional;Banco de Dados do Zero ao Profissional: Guia definitivo;Milton Hatoum;4.6;146.13;Planeta;499
+9788591779826;A Inverno Esquecido;A Inverno Esquecido: Edição comentada;Martin Fowler;4.5;27.81;Companhia das Letras;728
+9788529221694;O Verão Cinzento;O Verão Cinzento: Lições de uma vida;Jared Diamond;4.6;102.00;Aleph;600
+9788565472265;O Território Profundo;O Território Profundo: Edição de colecionador;Jared Diamond;4.8;149.50;Martins Fontes;360
+9788545228851;Casa e Sertão;Casa e Sertão: Volume único;Haruki Murakami;4.2;54.05;Intrínseca;719
+9788584608102;A Cidade Breve;A Cidade Breve: Edição de colecionador;Adélia Prado;4.1;133.32;Alta Books;507
+9788543805719;O Farol Dourado;O Farol Dourado: Contos e reflexões;Carl Sagan;3.1;30.45;L&PM;883
+9788540666580;Sertão e Ponte;Sertão e Ponte: Volume único;Carlos Drummond de Andrade;3.7;106.76;Companhia das Letras;895
+9788559893342;A Inverno Luminoso;A Inverno Luminoso: Um olhar contemporâneo;Bernardo Carvalho;4.6;174.85;Novatec;801
+9788564842298;Caminho e Farol;Caminho e Farol: Guia definitivo;Ursula K. Le Guin;4.4;40.19;Sextante;121
+9788594798510;Microsserviços Passo a Passo;Microsserviços Passo a Passo: Uma história de recomeços;Agatha Christie;3.1;74.75;Aleph;132
+9788586153358;O Farol Infinito;O Farol Infinito: Edição comentada;Ignácio de Loyola Brandão;4.5;46.99;Darkside Books;636
+9788599305614;O Cidade Silencioso;O Cidade Silencioso: Edição comentada;Adélia Prado;4.3;95.66;Sextante;737
+9788587704351;O Labirinto Silencioso;O Labirinto Silencioso: Volume único;Eric Evans;4.6;83.64;Record;902
+9788536138619;Farol e Trem;Farol e Trem: Volume único;Isabel Allende;4.0;126.48;Alta Books;295
+9788548193460;Dados Avançado;Dados Avançado: Uma história de recomeços;Adélia Prado;3.0;29.13;Planeta;893
+9788591901586;A Silêncio Esquecido;A Silêncio Esquecido: Uma história de recomeços;Rachel de Queiroz;3.7;40.01;Principis;86
+9788560728329;A Labirinto Luminoso;A Labirinto Luminoso: Edição comentada;Isabel Allende;3.4;177.44;Todavia;470
+9788582100998;Espelho e Labirinto;Espelho e Labirinto: Nova edição revisada;Ferréz;4.9;21.80;L&PM;975
+9788536822235;O Caminho Dourado;O Caminho Dourado: Uma jornada inesperada;Carl Sagan;4.4;173.50;Sextante;432
+9788578141417;Banco de Dados Completo;Banco de Dados Completo: Uma história de recomeços;Érico Veríssimo;4.7;178.40;Editora 34;642
+9788591357758;O Vento Vermelho;O Vento Vermelho: Guia definitivo;Carl Sagan;4.3;59.77;Principis;371
+9788520533642;A Espelho Selvagem;A Espelho Selvagem: Edição de colecionador;Brandon Sanderson;3.6;73.68;Darkside Books;518
+9788529142838;Mar e Mar;Mar e Mar: Nova edição revisada;Paulo Coelho;4.5;102.69;Record;191
+9788584887255;A Mapa Selvagem;A Mapa Selvagem: Lições de uma vida;Ferréz;4.5;56.07;Objetiva;117
+9788565803922;Mapa e Sertão;Mapa e Sertão: Contos e reflexões;Jorge Luis Borges;3.1;105.09;Martins Fontes;172
+9788575037317;Banco de Dados Passo a Passo;Banco de Dados Passo a Passo: Edição de colecionador;Paulo Coelho;4.9;132.00;Darkside Books;229
+9788570051844;O Memória Secreto;O Memória Secreto: Volume único;Brandon Sanderson;4.8;81.31;Sextante;560
+9788518463869;O Mapa Invisível;O Mapa Invisível: Lições de uma vida;Rubem Fonseca
+9788543222592;Engenharia de Software Passo a Passo;Engenharia de Software Passo a Passo: Um olhar contemporâneo;Haruki Murakami;3.2;33.00;Intrínseca;738
+9788560302994;A Sonho Breve;A Sonho Breve: Um olhar contemporâneo;José de Alencar;3.3;47.31;Alta Books;933
+9788586990410;A Verão Selvagem;A Verão Selvagem: Guia definitivo;Milton Hatoum;2.9;63.80;Planeta;264
+9788557991361;A Mapa Invisível;A Mapa Invisível: Edição de colecionador;Adélia Prado;4.3;64.87;Alta Books;821
+9788579908811;Reino e Memória;Reino e Memória: Lições de uma vida;Jorge Amado;4.6;122.84;Zahar;261
+9788568650868;A Eco Cinzento;A Eco Cinzento: Uma história de recomeços;Conceição Evaristo;4.8;151.63;Zahar;744
+9788591624737;A Território Vermelho;A Território Vermelho: Edição de colecionador;Fiódor Dostoiévski;4.6;174.24;Record;937
+9788509818067;O Cidade Profundo;O Cidade Profundo: Contos e reflexões;Mary Shelley;3.2;140.46;Editora Globo;888
+9788544869598;A Vento Profundo;A Vento Profundo: Nova edição revisada;Luis Fernando Verissimo;3.0;92.33;Todavia;679
+9788595621374;A Sonho Invisível;A Sonho Invisível: Nova edição revisada;Agatha Christie;4.0;102.14;Novatec;394
+9788502601277;APIs Essencial;APIs Essencial: Nova edição revisada;Liev Tolstói;4.6;124.28;Nova Fronteira;780
+9788598490274;O Caminho Luminoso;O Caminho Luminoso: Uma história de recomeços;Bernardo Carvalho;4.4;178.12;Companhia das Letras;490
+9788505302140;O Verão Luminoso;O Verão Luminoso: Volume único;Umberto Eco;3.9;59.28;Todavia;253
+9788511848953;O Território Azul;O Território Azul: Edição de colecionador;Rubem Fonseca;3.2;22.51;Sextante;800
+9788581818450;O Inverno Estranho;O Inverno Estranho: Lições de uma vida;Lygia Fagundes Telles;4.1;64.29;Martins Fontes;496
+9788573577907;Cidade e Mapa;Cidade e Mapa: Contos e reflexões;Robert C. Martin;4.3;184.13;Intrínseca;656
+9788588043411;O Território Antigo;O Território Antigo: Uma jornada inesperada;Ferréz;4.6;90.01;Aleph;441
+9788537333433;O Relógio Secreto;O Relógio Secreto: Edição de colecionador;Conceição Evaristo;3.4;180.91;Editora Globo;779
+9788579080753;A Eco Vermelho;A Eco Vermelho: Guia definitivo;Carl Sagan;4.5;40.28;Aleph;160
+9788508678082;O Trem Infinito;O Trem Infinito: Contos e reflexões;Rubem Fonseca;3.7;147.43;Todavia;211
+9788550036915;Trem e Farol;Trem e Farol: Um olhar contemporâneo;Marina Colasanti;4.9;138.60;Darkside Books;551
+9788576365563;O Segredo Quebrado;O Segredo Quebrado: Um olhar contemporâneo;Luis Fernando Verissimo;4.9;78.23;Planeta;268
+9788522702671;A Jardim Quebrado;A Jardim Quebrado: Uma jornada inesperada;Ariano Suassuna;4.0;165.47;Martins Fontes;280
+9788561203474;O Vento Breve;O Vento Breve: Contos e reflexões;Brandon Sanderson;3.4;165.85;Intrínseca;128
+9788545061595;O Vento Quebrado;O Vento Quebrado: Nova edição revisada;Érico Veríssimo;3.6;114.67;Editora 34;909
+9788587716941;O Ponte Cinzento;O Ponte Cinzento: Guia definitivo;Natalia Borges Polesso;5.0;68.28;Alta Books;412
+9788511253559;Ponte e Vento;Ponte e Vento: Lições de uma vida;Mary Shelley;4.2;117.08;Principis;949
+9788520234136;O Mar Vermelho;O Mar Vermelho: Edição de colecionador;José de Alencar;3.9;96.45;Todavia;251
+9788511492163;Algoritmos do Zero ao Profissional;Algoritmos do Zero ao Profissional: Volume único;Mario Quintana;2.9;150.96;Objetiva;616
+9788505577845;O Labirinto Estranho;O Labirinto Estranho: Guia definitivo;Sam Newman;3.1;162.45;Planeta;109
+9788596884570;Dados Aplicado;Dados Aplicado: Guia definitivo;Kent Beck;4.1;97.51;Objetiva;846
+9788508254781;A Mar Dourado;A Mar Dourado: Nova edição revisada;Machado de Assis;3.7;46.37;Zahar;90
+9788530853686;Sonho e Labirinto;Sonho e Labirinto: Uma história de recomeços;Chico Buarque;4.5;155.55;Todavia;691
+9788594484635;A Segredo Quebrado;A Segredo Quebrado: Edição comentada;Ursula K. Le Guin;3.7;60.63;Record;862
+9788573502084;Java Descomplicado;Java Descomplicado: Um olhar contemporâneo;Clarice Lispector;4.2;66.16;Novatec;717
+9788512073569;Labirinto e Horizonte;Labirinto e Horizonte: Guia definitivo;Mario Quintana;4.4;143.51;Zahar;318
+9788504618723;Mar e Casa;Mar e Casa: Uma história de recomeços;Érico Veríssimo;3.5;163.30;Sextante;229
+9788503718370;O Rio Eterno;O Rio Eterno: Uma jornada inesperada;Adélia Prado;3.6;185.65;Principis;333
+9788547435035;Farol e Ponte;Farol e Ponte: Uma história de recomeços;Lygia Fagundes Telles;4.4;113.33;Objetiva;205
+9788530097929;A Vento Silencioso;A Vento Silencioso: Guia definitivo;Lima Barreto;4.5;119.30;Record;485
+9788500528125;O Sonho Último;O Sonho Último: Edição de colecionador;Martin Fowler;3.5;184.74;Objetiva;857
+9788552407782;O Cidade Vermelho;O Cidade Vermelho: Um olhar contemporâneo;Ana Maria Machado;4.4;23.53;L&PM;466
+9788549821829;A Inverno Selvagem;A Inverno Selvagem: Guia definitivo;Bernardo Carvalho;4.0;74.93;Principis;559
+9788551863879;O Farol Silencioso;O Farol Silencioso: Edição de colecionador;Umberto Eco;4.7;151.82;L&PM;324
+9788510220316;Java Avançado;Java Avançado: Lições de uma vida;Martin Fowler;4.2;38.68;Editora Globo;615
+9788510371704;A Reino Luminoso;A Reino Luminoso: Edição de colecionador;Lima Barreto;3.4;82.18;L&PM;700
+9788514138112;A Silêncio Vermelho;A Silêncio Vermelho: Uma história de recomeços;Gabriel Garcia Marquez;4.6;65.09;Objetiva;121
+9788588619579;O Inverno Secreto;O Inverno Secreto: Volume único;Aldous Huxley;4.2;116.80;Autêntica;263
+9788589755856;Farol e Farol;Farol e Farol: Volume único;Ursula K. Le Guin;3.7;77.28;Darkside Books;241
+9788568457764;O Ponte Profundo;O Ponte Profundo: Nova edição revisada;Machado de Assis;4.1;115.63;Rocco;299
+9788543350486;Eco e Rio;Eco e Rio: Volume único;Eric Evans;3.1;171.26;L&PM;86
+9788533441965;Microsserviços Avançado;Microsserviços Avançado: Guia definitivo;Yuval Noah Harari;3.1;82.30;Editora Globo;676
+9788591940967;A Sertão Esquecido;A Sertão Esquecido: Um olhar contemporâneo;Jorge Amado;3.2;160.27;Rocco;786
+9788539060481;Vento e Relógio;Vento e Relógio: Lições de uma vida;Graciliano Ramos;3.7;167.43;Aleph;970
+9788567998138;O Espelho Esquecido;O Espelho Esquecido: Volume único;Chico Buarque;4.3;45.94;Principis;769
+9788586416866;A Espelho Distante;A Espelho Distante: Nova edição revisada;Umberto Eco;3.0;117.04;Alta Books;130
+9788589833141;A Sonho Cinzento;A Sonho Cinzento: Uma jornada inesperada;Umberto Eco;3.9;130.78;Autêntica;280
+9788535590425;O Mapa Último;O Mapa Último: Edição comentada;Rubem Fonseca;4.3;91.90;Nova Fronteira;436
+9788535211030;A Mar Luminoso;A Mar Luminoso: Guia definitivo;Carl Sagan;3.8;177.02;Alta Books;319
+9788570538338;Labirinto e Rio;Labirinto e Rio: Nova edição revisada;Kent Beck;4.3;38.82;Martins Fontes;540
+9788542043945;A Espelho Silencioso;A Espelho Silencioso: Lições de uma vida;Carlos Drummond de Andrade;4.1;132.70;Planeta;124
+9788515798124;Ponte e Território;Ponte e Território: Uma jornada inesperada;Érico Veríssimo;5.0;106.35;Martins Fontes;806
+9788557620551;Cidade e Casa;Cidade e Casa: Uma história de recomeços;Rubem Fonseca;2.9;176.69;Principis;392
+9788508432561;O Reino Quebrado;O Reino Quebrado: Uma história de recomeços;Jane Austen;4.2;169.28;Alta Books;914
+9788539264957;Segurança Aplicado;Segurança Aplicado: Edição de colecionador;Bernardo Carvalho;4.7;136.61;L&PM;507
+9788529251882;Labirinto e Casa;Labirinto e Casa: Volume único;Gabriel Garcia Marquez;4.8;93.01;Intrínseca;868
+9788564742314;Lógica Passo a Passo;Lógica Passo a Passo: Uma história de recomeços;Ariano Suassuna;4.5;169.52;Novatec;503
+9788533051720;Testes Completo;Testes Completo: Contos e reflexões;Eric Evans;4.1;124.00;Nova Fronteira;690
+9788560463336;Segurança do Zero ao Profissional;Segurança do Zero ao Profissional: Um olhar contemporâneo;Cecília Meireles;3.1;52.75;Novatec;113
+9788566096569;Mar e Eco;Mar e Eco: Um olhar contemporâneo;Carl Sagan;4.3;167.25;Editora 34;332
+9788503886086;O Reino Perdido;O Reino Perdido: Volume único;Adélia Prado;3.0;97.57;Martins Fontes;978
+9788547264901;A Verão Secreto;A Verão Secreto: Contos e reflexões;Aldous Huxley;3.8;170.25;Martins Fontes;872
+9788598266572;Mar e Ponte;Mar e Ponte: Um olhar contemporâneo;Clarice Lispector;3.0;105.01;Novatec;264
+9788521117513;Caminho e Horizonte;Caminho e Horizonte: Nova edição revisada;Andrew Hunt;4.3;174.12;Todavia;895
+9788592222062;Território e Cidade;Território e Cidade: Lições de uma vida;Mario Quintana;2.9;48.95;Principis;423
+9788580973396;Rio e Eco;Rio e Eco: Contos e reflexões;Jane Austen;2.8;104.50;Zahar;590
+9788549830227;O Mar Último;O Mar Último: Edição de colecionador;Carlos Drummond de Andrade;4.1;61.50;Darkside Books;640
+9788501622495;Lógica na Prática;Lógica na Prática: Edição de colecionador;Jane Austen;4.6;70.64;Nova Fronteira;169
+9788555616815;Sertão e Mapa;Sertão e Mapa: Nova edição revisada;Ana Maria Machado;4.8;35.73;Zahar;386
+9788539019816;Dados para Iniciantes;Dados para Iniciantes: Nova edição revisada;Robert C. Martin;4.0;109.09;Nova Fronteira;792
+9788599529973;Casa e Labirinto;Casa e Labirinto: Lições de uma vida;Andrew Hunt;4.1;73.70;Zahar;618
+9788510713962;O Farol Luminoso;O Farol Luminoso: Uma jornada inesperada;Daniel Galera;4.4;186.37;Rocco;81
+9788514488507;O Cidade Secreto;O Cidade Secreto: Uma história de recomeços;Lygia Fagundes Telles;4.2;137.20;Aleph;340
+9788555770272;O Sertão Selvagem;O Sertão Selvagem: Edição de colecionador;Guimarães Rosa;4.9;161.35;Planeta;278
+9788588039551;O Silêncio Perdido;O Silêncio Perdido: Volume único;Cecília Meireles;3.5;143.14;Alta Books;403
+9788596291453;O Rio Esquecido;O Rio Esquecido: Lições de uma vida;Haruki Murakami;4.2;163.11;Rocco;664
+9788538421504;O Caminho Breve;O Caminho Breve: Uma jornada inesperada;Umberto Eco;3.6;160.91;Editora Globo;389
+9788535784527;Mar e Reino;Mar e Reino: Uma história de recomeços;Umberto Eco;4.6;173.74;Intrínseca;237
+9788581040912;A Reino Distante;A Reino Distante: Uma jornada inesperada;Ignácio de Loyola Brandão;4.4;97.99;Planeta;810
+9788535334487;Jardim e Reino;Jardim e Reino: Contos e reflexões;Marina Colasanti;2.8;148.84;Planeta;734
+9788588138582;A Horizonte Distante;A Horizonte Distante: Guia definitivo;Marina Colasanti;3.4;22.49;Sextante;717
+9788501601667;O Vento Cinzento;O Vento Cinzento: Um olhar contemporâneo;Monteiro Lobato;2.9;24.83;Nova Fronteira;771
+9788538179214;Ponte e Casa;Ponte e Casa: Um olhar contemporâneo;Neil Gaiman;4.2;73.01;Planeta;917
+9788594562555;Java do Zero ao Profissional;Java do Zero ao Profissional: Um olhar contemporâneo;Natalia Borges Polesso;3.3;57.95;Zahar;961
+9788559928167;Microsserviços Descomplicado;Microsserviços Descomplicado: Nova edição revisada;Neil Gaiman;3.9;163.68;Intrínseca;369
+9788539382767;O Ponte Último;O Ponte Último: Contos e reflexões;Cecília Meireles;4.0;88.04;Aleph;503
+9788519719972;O Silêncio Selvagem;O Silêncio Selvagem: Nova edição revisada;Marina Colasanti;4.0;60.05;L&PM;758
+9788565701327;O Território Último;O Território Último: Edição de colecionador;Chimamanda Ngozi Adichie;3.0;158.29;Editora 34;869
+9788569973355;Ponte e Rio;Ponte e Rio: Guia definitivo;Mario Quintana;4.3;96.91;Editora 34;378
+9788590986249;A Memória Dourado;A Memória Dourado: Lições de uma vida;Carlos Drummond de Andrade;4.4;175.47;Darkside Books;171
+9788540369658;Verão e Rio;Verão e Rio: Volume único;Haruki Murakami;4.6;80.97;Todavia;961
+9788586562426;O Silêncio Cinzento;O Silêncio Cinzento: Uma jornada inesperada;Ariano Suassuna;4.3;100.63;Companhia das Letras;272
+9788512679693;Arquitetura Passo a Passo;Arquitetura Passo a Passo: Um olhar contemporâneo;Monteiro Lobato;4.2;185.65;Planeta;219
+9788509738464;O Cidade Estranho;O Cidade Estranho: Lições de uma vida;Liev Tolstói;3.6;51.48;L&PM;699
+9788571284784;O Verão Perdido;O Verão Perdido: Edição de colecionador;Jorge Amado;3.9;82.56;Martins Fontes;674
+9788518949059;Caminho e Segredo;Caminho e Segredo: Um olhar contemporâneo;Kent Beck;4.2;132.74;Companhia das Letras;764
+9788544209493;O Reino Breve;O Reino Breve: Edição de colecionador;Paulo Coelho;4.4;91.47;Rocco;897
+9788529444017;O Caminho Distante;O Caminho Distante: Volume único;Jared Diamond;3.0;153.14;Novatec;338
+9788580512922;A Relógio Invisível;A Relógio Invisível: Contos e reflexões;Brandon Sanderson;4.5;60.05;Zahar;265
+9788539504107;A Silêncio Azul;A Silêncio Azul: Uma jornada inesperada;José de Alencar;4.3;143.32;Planeta;251
+9788574286044;O Labirinto Breve;O Labirinto Breve: Volume único;Liev Tolstói;3.3;136.10;Planeta;479
+9788569454410;O Vento Infinito;O Vento Infinito: Uma história de recomeços;Paulo Coelho;3.0;110.22;Editora 34;442
+9788525800107;O Trem Antigo;O Trem Antigo: Edição de colecionador;Daniel Galera;4.5;108.29;Intrínseca;773
+9788500910937;O Memória Estranho;O Memória Estranho: Nova edição revisada;Jared Diamond;3.3;68.06;Intrínseca;277
+9788592124472;A Jardim Último;A Jardim Último: Edição de colecionador;Jane Austen;3.1;131.49;Record;743
+9788506650448;A Horizonte Profundo;A Horizonte Profundo: Nova edição revisada;Monteiro Lobato;3.4;152.62;Planeta;363
+9788528639179;Engenharia de Software Moderno;Engenharia de Software Moderno: Edição de colecionador;Haruki Murakami;3.7;129.63;Sextante;191
+9788576618300;A Território Selvagem;A Território Selvagem: Uma história de recomeços;Adélia Prado;3.9;179.68;Zahar;582
+9788515851744;APIs Avançado;APIs Avançado: Nova edição revisada;Mary Shelley;4.3;88.00;Editora Globo;727
+9788573203097;A Labirinto Azul;A Labirinto Azul: Edição comentada;Itamar Vieira Junior;4.2;80.97;Zahar;166
+9788506138786;O Mar Silencioso;O Mar Silencioso: Uma história de recomeços;Guimarães Rosa;3.5;77.31;Editora 34;818
+9788503202046;O Caminho Perdido;O Caminho Perdido: Guia definitivo;Neil Gaiman;3.9;23.14;Intrínseca;713
+9788599313657;O Farol Selvagem;O Farol Selvagem: Edição comentada;Arthur Conan Doyle;4.6;37.98;Todavia;589
+9788530925116;O Memória Selvagem;O Memória Selvagem: Volume único;Luis Fernando Verissimo;3.1;162.09;Alta Books;892
+9788502196209;A Farol Vermelho;A Farol Vermelho: Volume único;Chimamanda Ngozi Adichie;3.2;61.32;Zahar;675
+9788572324878;Casa e Ponte;Casa e Ponte: Edição de colecionador;Daniel Galera;4.8;90.66;Objetiva;906
+9788514560838;Eco e Casa;Eco e Casa: Uma história de recomeços;Érico Veríssimo;4.1;141.82;Intrínseca;706
+9788537340318;Jardim e Eco;Jardim e Eco: Nova edição revisada;Agatha Christie;4.7;187.65;Alta Books;599
+9788545970101;DevOps na Prática;DevOps na Prática: Uma história de recomeços;Liev Tolstói;4.2;68.36;L&PM;525
+9788553153138;Sertão e Mar;Sertão e Mar: Edição de colecionador;Isabel Allende;4.1;91.14;Autêntica;845
+9788523972653;Território e Segredo;Território e Segredo: Edição comentada;Ariano Suassuna;3.8;102.25;Planeta;526
+9788590421771;A Ponte Vermelho;A Ponte Vermelho: Contos e reflexões;Daniel Galera;3.2;41.53;Novatec;788
+9788529831688;A Segredo Dourado;A Segredo Dourado: Edição de colecionador;Martin Fowler;3.1;154.98;Editora Globo;706
+9788535693928;O Mar Quebrado;O Mar Quebrado: Uma história de recomeços;Fiódor Dostoiévski;4.4;145.05;Editora 34;332
+9788506867174;Silêncio e Verão;Silêncio e Verão: Uma história de recomeços;Martin Fowler;5.0;144.59;Objetiva;596
+9788507427995;A Silêncio Secreto;A Silêncio Secreto: Guia definitivo;Clarice Lispector;3.6;60.54;Planeta;172
+9788501658043;O Espelho Azul;O Espelho Azul: Guia definitivo;Chico Buarque;4.5;82.87;Sextante;555
+9788585016579;O Inverno Último;O Inverno Último: Edição de colecionador;Carl Sagan;4.7;144.98;Rocco;136
+9788553817931;O Farol Cinzento;O Farol Cinzento: Edição comentada;Jorge Luis Borges;4.0;151.41;Objetiva;221
+9788577881789;O Horizonte Infinito;O Horizonte Infinito: Lições de uma vida;George Orwell;3.4;30.67;L&PM;433
+9788562411243;O Memória Último;O Memória Último: Uma jornada inesperada;Lygia Fagundes Telles;4.8;97.74;Alta Books;162
+9788504310382;O Memória Cinzento;O Memória Cinzento: Guia definitivo;Mary Shelley;3.8;91.32;Aleph;835
+9788587749246;O Vento Esquecido;O Vento Esquecido: Um olhar contemporâneo;José de Alencar;4.1;138.37;Sextante;942
+9788592842222;O Relógio Dourado;O Relógio Dourado: Uma história de recomeços;José de Alencar;3.1;68.24;Objetiva;250
+9788582841068;APIs na Prática;APIs na Prática: Nova edição revisada;Liev Tolstói;5.0;45.05;Zahar;539
+9788592975173;Vento e Ponte;Vento e Ponte: Contos e reflexões;Elena Ferrante;3.8;69.17;Rocco;852
+9788575150931;APIs Descomplicado;APIs Descomplicado: Contos e reflexões;Daniel Kahneman;2.9;124.88;Martins Fontes;305
+9788518637598;O Trem Quebrado;O Trem Quebrado: Uma jornada inesperada;Jared Diamond;2.8;111.43;Martins Fontes;536
+9788565045544;Memória e Relógio;Memória e Relógio: Lições de uma vida;Bernardo Carvalho;3.1;165.05;L&PM;458
+9788566299120;Dados do Zero ao Profissional;Dados do Zero ao Profissional: Lições de uma vida;Milton Hatoum;4.6;68.97;Principis;905
+9788510646284;O Reino Esquecido;O Reino Esquecido: Edição comentada;Natalia Borges Polesso;4.9;120.32;Editora 34;464
+9788504947878;A Espelho Secreto;A Espelho Secreto: Guia definitivo;Conceição Evaristo;4.6;69.11;Companhia das Letras;582
+9788514627302;A Espelho Quebrado;A Espelho Quebrado: Contos e reflexões;Lygia Fagundes Telles;4.9;161.72;Sextante;563
+9788571589049;A Mapa Breve;A Mapa Breve: Edição de colecionador;José de Alencar;3.8;63.74;Editora 34;782
+9788565044813;Cloud do Zero ao Profissional;Cloud do Zero ao Profissional: Guia definitivo;Eric Evans;3.6;28.89;Editora Globo;449
+9788554451899;A Farol Eterno;A Farol Eterno: Edição de colecionador;Rubem Fonseca;4.5;112.33;Alta Books;973
+9788513283387;APIs para Iniciantes;APIs para Iniciantes: Nova edição revisada;Carl Sagan;4.5;89.94;Martins Fontes;246
+9788520754528;A Casa Cinzento;A Casa Cinzento: Edição comentada;Neil Gaiman;3.7;175.63;Planeta;199
+9788513223420;Eco e Reino;Eco e Reino: Nova edição revisada;Milton Hatoum;3.2;71.70;Alta Books;842
+9788560310890;Silêncio e Casa;Silêncio e Casa: Edição comentada;Carlos Drummond de Andrade;3.0;151.60;Zahar;855
+9788519393257;Java na Prática;Java na Prática: Edição comentada;Clarice Lispector;3.5;21.65;Record;178
+9788538911906;Relógio e Relógio;Relógio e Relógio: Guia definitivo;Andrew Hunt;4.7;152.64;Editora Globo;707
+9788587592712;A Labirinto Invisível;A Labirinto Invisível: Volume único;Monteiro Lobato;2.8;143.21;Darkside Books;299
+9788517182754;Silêncio e Inverno;Silêncio e Inverno: Volume único;Haruki Murakami;3.3;39.08;Principis;401
+9788573864632;O Jardim Azul;O Jardim Azul: Contos e reflexões;Ursula K. Le Guin;3.8;145.05;Record;783
+9788516781125;Sonho e Memória;Sonho e Memória: Nova edição revisada;Ferréz;3.2;189.68;Todavia;583
+9788596136747;A Jardim Invisível;A Jardim Invisível: Edição comentada;Jorge Luis Borges;3.6;53.74;Editora 34;285
+9788578427115;O Trem Azul;O Trem Azul: Nova edição revisada;Paulo Coelho;3.8;122.44;Zahar;494
+9788569524991;Dados na Prática;Dados na Prática: Edição comentada;Rachel de Queiroz;3.9;24.45;Record;263
+9788584858804;A Reino Breve;A Reino Breve: Um olhar contemporâneo;Jorge Luis Borges;3.2;132.46;Rocco;582
+9788500284274;Jardim e Território;Jardim e Território: Um olhar contemporâneo;Chico Buarque;3.5;83.88;Alta Books;550
+9788589778282;O Território Breve;O Território Breve: Edição comentada;Carlos Drummond de Andrade;4.1;103.29;Todavia;647
+9788550090252;O Mapa Azul;O Mapa Azul: Edição de colecionador;Rubem Fonseca;4.3;150.20;Editora 34;371
+9788565033343;Engenharia de Software Avançado;Engenharia de Software Avançado: Lições de uma vida;Daniel Kahneman;3.0;78.57;Record;445
+9788507698647;Caminho e Labirinto;Caminho e Labirinto: Edição comentada;Clarice Lispector;3.5;23.25;Zahar;413
+9788571357853;O Vento Azul;O Vento Azul: Edição de colecionador;José de Alencar;3.7;117.23;Nova Fronteira;907
+9788583440499;O Silêncio Secreto;O Silêncio Secreto: Um olhar contemporâneo;Ferréz;4.2;185.50;Objetiva;157
+9788587635143;A Caminho Selvagem;A Caminho Selvagem: Edição comentada;Eric Evans;4.1;66.37;Principis;660
+9788578208295;O Cidade Esquecido;O Cidade Esquecido: Uma jornada inesperada;Martin Fowler;3.7;62.62;Editora Globo;607
+9788569083573;A Sertão Estranho;A Sertão Estranho: Contos e reflexões;Guimarães Rosa;4.9;110.46;Objetiva;709
+9788536442495;DevOps para Iniciantes;DevOps para Iniciantes: Lições de uma vida;Itamar Vieira Junior;3.7;166.13;Todavia;145
+9788578660321;O Espelho Secreto;O Espelho Secreto: Uma história de recomeços;Luis Fernando Verissimo;3.3;160.53;Alta Books;555
+9788570015945;Redes para Iniciantes;Redes para Iniciantes: Volume único;Margaret Atwood;3.2;164.83;Record;819
+9788523198183;Silêncio e Relógio;Silêncio e Relógio: Edição comentada;Jane Austen;3.7;162.67;Editora 34;942
+9788555963636;Reino e Horizonte;Reino e Horizonte: Um olhar contemporâneo;Guimarães Rosa;4.7;60.37;Intrínseca;205
+9788542575408;O Relógio Eterno;O Relógio Eterno: Nova edição revisada;Mary Shelley;4.0;100.63;Nova Fronteira;332
+9788551837603;A Memória Antigo;A Memória Antigo: Contos e reflexões;Fiódor Dostoiévski;4.0;72.48;Todavia;797
+9788532756046;Horizonte e Labirinto;Horizonte e Labirinto: Edição comentada;Margaret Atwood;4.9;148.53;Record;384
+9788585700270;Jardim e Farol;Jardim e Farol: Contos e reflexões;Agatha Christie;3.9;79.72;Alta Books;696
+9788582965771;Python para Iniciantes;Python para Iniciantes: Nova edição revisada;Margaret Atwood;4.1;38.74;Alta Books;335
+9788569300892;A Labirinto Secreto;A Labirinto Secreto: Edição comentada;Stephen Hawking;3.7;50.82;Objetiva;977
+9788596942157;Mar e Inverno;Mar e Inverno: Contos e reflexões;José de Alencar;4.3;48.59;Editora 34;490
+9788544762639;O Mar Breve;O Mar Breve: Edição comentada;Jared Diamond;3.3;54.43;Editora Globo;962
+9788504439731;Labirinto e Sertão;Labirinto e Sertão: Uma jornada inesperada;Lima Barreto;3.7;89.35;Editora 34;229
+9788563669414;A Mar Último;A Mar Último: Uma história de recomeços;Rachel de Queiroz;3.8;168.05;L&PM;789
+9788548964657;O Relógio Luminoso;O Relógio Luminoso: Edição de colecionador;Ariano Suassuna;4.4;157.58;L&PM;85
+9788515027453;Espelho e Caminho;Espelho e Caminho: Nova edição revisada;Liev Tolstói;4.4;93.50;Autêntica;346
+9788557287037;O Horizonte Luminoso;O Horizonte Luminoso: Contos e reflexões;Guimarães Rosa;3.9;93.98;Rocco;248
+9788570758774;O Verão Breve;O Verão Breve: Contos e reflexões;Martin Fowler;3.2;99.31;Intrínseca;198
