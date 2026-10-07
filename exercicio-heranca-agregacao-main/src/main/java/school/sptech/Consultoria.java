@@ -5,6 +5,7 @@ import school.sptech.especialistas.DesenvolvedorWeb;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class Consultoria {
     private String nome;
@@ -135,6 +136,63 @@ public class Consultoria {
         media = media / desenvolvedores.size();
         return media;
      }
+
+
+
+
+     public List<Desenvolvedor> buscarPorNome(String nome){
+        List<Desenvolvedor> desenvolvedor = new ArrayList<>();
+        String nomeRecebido = nome.toLowerCase();
+        for (Desenvolvedor dev: desenvolvedores){
+            String nomeComparado = dev.getNome().toLowerCase();
+            if (nomeComparado.contains(nomeRecebido)){
+                desenvolvedor.add(dev);
+            }
+        }
+        return desenvolvedor;
+    }
+
+
+    public Double calcularMediaSalarialPorTipo(String tipo) {
+        Double salario = 0.0;
+        Double media = 0.0;
+
+        List<Desenvolvedor> teste = new ArrayList<>();
+
+        if (desenvolvedores.isEmpty()) {
+            return media;
+        }
+
+        if (!tipo.equals("comum") &&
+                !tipo.equals("web") &&
+                !tipo.equals("mobile")) {
+            return null;
+        }
+
+        for (Desenvolvedor desen : desenvolvedores) {
+
+            if (tipo.equals("comum") && desen.getClass() == Desenvolvedor.class) {
+                teste.add(desen);
+                salario += desen.calcularSalario();
+
+            } else if (tipo.equals("web") && desen instanceof DesenvolvedorWeb web) {
+                teste.add(web);
+                salario += web.calcularSalario();
+
+            } else if (tipo.equals("mobile") && desen instanceof DesenvolvedorMobile mob) {
+                teste.add(mob);
+                salario += mob.calcularSalario();
+            }
+        }
+
+        if (teste.isEmpty()) {
+            return media;
+        }
+
+        media = salario / teste.size();
+
+        return media;
+    }
 
 
 
