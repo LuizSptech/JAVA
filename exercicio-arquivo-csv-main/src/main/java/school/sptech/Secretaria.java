@@ -110,7 +110,7 @@ public class Secretaria {
                 writer.write(linha);
                 writer.newLine();
             }
-            //outputStream.close(); //se não fechar é uma péssima prática
+            
         } catch (IOException e) {
             System.out.println("Erro ao escrever o arquivo");
         }
