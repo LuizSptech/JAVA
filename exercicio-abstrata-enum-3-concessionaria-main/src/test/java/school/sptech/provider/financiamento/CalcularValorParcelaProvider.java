@@ -1,0 +1,35 @@
+package school.sptech.provider.financiamento;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+import org.junit.jupiter.api.extension.ExtensionContext;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.ArgumentsProvider;
+import school.sptech.provider.veiculo.VeiculoArgumentHelper;
+
+public class CalcularValorParcelaProvider implements ArgumentsProvider {
+
+    @Override
+    public Stream<? extends Arguments> provideArguments(ExtensionContext context)
+          throws ReflectiveOperationException {
+        List<Arguments> baseTests = VeiculoArgumentHelper.veiculosValorFinal;
+
+        if (baseTests.isEmpty()) {
+            throw new IllegalArgumentException(
+                  "Para calcular o valor da parcela, a classe Veiculo deve estar completa");
+        }
+
+        int[] parcelas = {1, 12, 120, 240, 600};
+
+        return baseTests.stream()
+              .flatMap(base -> {
+                  Object veiculo = base.get()[0];
+                  Double valorFinal = (Double) base.get()[1];
+                  return Arrays.stream(parcelas)
+                        .mapToObj(qtdParcelas -> Arguments.of(
+                              qtdParcelas, veiculo, valorFinal * 1.1 / qtdParcelas
+                        ));
+              });
+    }
+}
