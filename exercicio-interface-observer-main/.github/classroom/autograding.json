@@ -1,0 +1,374 @@
+{
+  "tests": [
+    {
+      "name": "Exceptions 1. Herança",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ExceptionsTest\\$HerancaTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Tema 1. Constantes",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\TemaTest\\$ConstantesTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Observador 1. Interface",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ObservadorTest\\$InterfaceTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Observador 2. Métodos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\ObservadorTest\\$MetodosTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Noticia 1. Atributos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\NoticiaTest\\$AtributosTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Noticia 2. Encapsulamento",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\NoticiaTest\\$EncapsulamentoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Noticia 3. Validação - Construtor",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\NoticiaTest\\$ValidacaoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Leitor 1. Atributos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\LeitorTest\\$AtributosTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Leitor 2. Métodos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\LeitorTest\\$MetodosTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Leitor 3. Implementar Observador",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\LeitorTest\\$ImplementsTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Leitor 4. Encapsulamento",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\LeitorTest\\$EncapsulamentoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Leitor 5. Método - receberPublicacao",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\LeitorTest\\$MetodoReceberPublicacaoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Estatistica 1. Atributos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaTest\\$AtributosTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Estatistica 2. Métodos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaTest\\$MetodosTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Estatistica 3. Encapsulamento",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaTest\\$EncapsulamentoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Estatistica 4. Método - receberPublicacao",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaTest\\$ReceberPublicacaoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "EstatisticaTema 1. Atributos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaTemaTest\\$AtributosTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "EstatisticaTema 2. Métodos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaTemaTest\\$MetodosTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "EstatisticaTema 3. Encapsulamento",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaTemaTest\\$EncapsulamentoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "EstatisticaTema 4. Método - receberPublicacao",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaTemaTest\\$ReceberPublicacaoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "EstatisticaTema 5. Método - getPercentual",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaTemaTest\\$GetPercentualTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "EstatisticaJornalista 1. Atributos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaJornalistaTest\\$AtributosTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "EstatisticaJornalista 2. Métodos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaJornalistaTest\\$MetodosTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "EstatisticaJornalista 3. Encapsulamento",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaJornalistaTest\\$EncapsulamentoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "EstatisticaJornalista 4. Método - receberPublicacao",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaJornalistaTest\\$ReceberPublicacaoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "EstatisticaJornalista 5. Método - getPercentual",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\EstatisticaJornalistaTest\\$GetPercentualTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Jornal 1. Atributos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\JornalTest\\$AtributosTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Jornal 2. Métodos",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\JornalTest\\$MetodosTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Jornal 3. Encapsulamento",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\JornalTest\\$EncapsulamentoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Jornal 4. Método - inscrever",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\JornalTest\\$InscreverTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Jornal 5. Método - desinscrever",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\JornalTest\\$DesinscreverTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Jornal 6. Método - publicar",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\JornalTest\\$PublicarTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Jornal 7. Método - getMaiorPercentual",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\JornalTest\\$GetMaiorPercentualTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Jornal 8. Método - getLeitoresPorTema",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\JornalTest\\$GetLeitoresPorTemaTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Jornal 9. Método - getJornalistaComMaisPublicacoes",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\JornalTest\\$GetJornalistaComMaisPublicacoesTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Jornal 10. Método - getTemaFavorito (Desafio)",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\JornalTest\\$GetTemaFavoritoTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Jornal 11. Método - getNoticiaMaisFavoritada (Desafio)",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\JornalTest\\$GetNoticiaMaisFavoritadaTest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}

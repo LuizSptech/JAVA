@@ -1,0 +1,258 @@
+<mxfile host="drawio-plugin" modified="2026-11-10T18:47:21.662Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="22.1.22" etag="MUVxfaPC5KQwdS33RnzS" type="embed">
+  <diagram id="uml-jornal" name="UML">
+    <mxGraphModel dx="432" dy="255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jornal" value="Jornal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="340" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="jornal_a0" value="- nome: String {readOnly}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jornal" vertex="1">
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jornal_l" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jornal" vertex="1">
+          <mxGeometry y="52" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="jornal_m0" value="+ Jornal(nome: String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jornal" vertex="1">
+          <mxGeometry y="60" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jornal_m1" value="+ inscrever(observador: Observador): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jornal" vertex="1">
+          <mxGeometry y="86" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jornal_m2" value="+ desinscrever(observador: Observador): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jornal" vertex="1">
+          <mxGeometry y="112" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jornal_m3" value="+ publicar(noticia: Noticia): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jornal" vertex="1">
+          <mxGeometry y="138" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jornal_m4" value="+ getMaiorPercentual(): Estatistica" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jornal" vertex="1">
+          <mxGeometry y="164" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jornal_m5" value="+ getLeitoresPorTema(tema: Tema): List&amp;lt;Leitor&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jornal" vertex="1">
+          <mxGeometry y="190" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jornal_m6" value="+ getJornalistaComMaisPublicacoes(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jornal" vertex="1">
+          <mxGeometry y="216" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jornal_m7" value="+ getTemaFavorito(): Tema" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jornal" vertex="1">
+          <mxGeometry y="242" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jornal_m8" value="+ getNoticiaMaisFavoritada(): Noticia" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jornal" vertex="1">
+          <mxGeometry y="268" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="observador" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;Observador" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="130" width="340" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="observador_l" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="observador" vertex="1">
+          <mxGeometry y="40" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="observador_m0" value="+ receberPublicacao(noticia: Noticia): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2;" parent="observador" vertex="1">
+          <mxGeometry y="48" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="estatistica" value="Estatistica" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="330" width="320" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="estatistica_a0" value="- qtdPublicacoesRecebidas: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="estatistica" vertex="1">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="estatistica_l" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="estatistica" vertex="1">
+          <mxGeometry y="52" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="estatistica_m0" value="+ Estatistica()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="estatistica" vertex="1">
+          <mxGeometry y="60" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="estatistica_m1" value="+ getPercentual(): Double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2;" parent="estatistica" vertex="1">
+          <mxGeometry y="86" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="estatistica_m2" value="+ receberPublicacao(noticia: Noticia): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="estatistica" vertex="1">
+          <mxGeometry y="112" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor" value="Leitor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="330" width="360" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor_a0" value="- nome: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="leitor" vertex="1">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor_a1" value="- email: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="leitor" vertex="1">
+          <mxGeometry y="52" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor_a2" value="- publicacoesRecebidas: List&amp;lt;Noticia&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="leitor" vertex="1">
+          <mxGeometry y="78" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor_a3" value="- publicacoesFavoritas: List&amp;lt;Noticia&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="leitor" vertex="1">
+          <mxGeometry y="104" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor_a4" value="- temaFavorito: Tema" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="leitor" vertex="1">
+          <mxGeometry y="130" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor_l" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="leitor" vertex="1">
+          <mxGeometry y="156" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor_m0" value="+ Leitor(nome: String, email: String, temaFavorito: Tema)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="leitor" vertex="1">
+          <mxGeometry y="164" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="leitor_m1" value="+ receberPublicacao(noticia: Noticia): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="leitor" vertex="1">
+          <mxGeometry y="190" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ejornalista" value="EstatisticaJornalista" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="600" width="320" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="ejornalista_a0" value="- jornalista: String {readOnly}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ejornalista" vertex="1">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ejornalista_a1" value="- qtdPublicacoesJornalista: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ejornalista" vertex="1">
+          <mxGeometry y="52" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ejornalista_l" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ejornalista" vertex="1">
+          <mxGeometry y="78" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ejornalista_m0" value="+ EstatisticaJornalista(jornalista: String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ejornalista" vertex="1">
+          <mxGeometry y="86" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ejornalista_m1" value="+ receberPublicacao(noticia: Noticia): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ejornalista" vertex="1">
+          <mxGeometry y="112" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ejornalista_m2" value="+ getPercentual(): Double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ejornalista" vertex="1">
+          <mxGeometry y="138" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="etema" value="EstatisticaTema" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="600" width="320" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="etema_a0" value="- tema: Tema {readOnly}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="etema" vertex="1">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="etema_a1" value="- qtdPublicacoesTema: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="etema" vertex="1">
+          <mxGeometry y="52" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="etema_l" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="etema" vertex="1">
+          <mxGeometry y="78" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="etema_m0" value="+ EstatisticaTema(tema: Tema)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="etema" vertex="1">
+          <mxGeometry y="86" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="etema_m1" value="+ receberPublicacao(noticia: Noticia): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="etema" vertex="1">
+          <mxGeometry y="112" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="etema_m2" value="+ getPercentual(): Double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="etema" vertex="1">
+          <mxGeometry y="138" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="noticia" value="Noticia" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="160" width="440" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="noticia_a0" value="- titulo: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="noticia" vertex="1">
+          <mxGeometry y="26" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="noticia_a1" value="- tema: Tema" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="noticia" vertex="1">
+          <mxGeometry y="52" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="noticia_a2" value="- autor: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="noticia" vertex="1">
+          <mxGeometry y="78" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="noticia_a3" value="- minutosLeitura: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="noticia" vertex="1">
+          <mxGeometry y="104" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="noticia_l" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="noticia" vertex="1">
+          <mxGeometry y="130" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="noticia_m0" value="+ Noticia(titulo: String, tema: Tema, autor: String, minutosLeitura: Integer)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="noticia" vertex="1">
+          <mxGeometry y="138" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tema" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;br&gt;Tema" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="500" width="300" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="tema_a0" value="POLITICA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tema" vertex="1">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tema_a1" value="TECNOLOGIA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tema" vertex="1">
+          <mxGeometry y="66" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tema_a2" value="ENTRETENIMENTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tema" vertex="1">
+          <mxGeometry y="92" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tema_a3" value="ESPORTE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tema" vertex="1">
+          <mxGeometry y="118" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tema_l" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tema" vertex="1">
+          <mxGeometry y="144" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="agg_jornal" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="observador" target="jornal" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agg_jornal_t0" value="1..*" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="agg_jornal" vertex="1" connectable="0">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agg_jornal_t1" value="1..*" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="agg_jornal" vertex="1" connectable="0">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="30" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="real_est" style="endArrow=block;endSize=16;endFill=0;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="estatistica" target="observador" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="real_leitor" style="endArrow=block;endSize=16;endFill=0;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="leitor" target="observador" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="her_ej" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ejornalista" target="estatistica" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="her_et" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="etema" target="estatistica" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agg_leitor_noticia" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.35;entryDx=0;entryDy=0;" parent="1" source="noticia" target="leitor" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agg_leitor_noticia_t0" value="1..*" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="agg_leitor_noticia" vertex="1" connectable="0">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agg_leitor_noticia_t1" value="1..*" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="agg_leitor_noticia" vertex="1" connectable="0">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="16" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agg_leitor_tema" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.8;entryDx=0;entryDy=0;" parent="1" source="tema" target="leitor" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agg_leitor_tema_t0" value="1..1" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="agg_leitor_tema" vertex="1" connectable="0">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agg_leitor_tema_t1" value="1..*" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="agg_leitor_tema" vertex="1" connectable="0">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="16" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agg_noticia_tema" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="tema" target="noticia" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agg_noticia_tema_t0" value="1..1" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="agg_noticia_tema" vertex="1" connectable="0">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agg_noticia_tema_t1" value="1..*" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="agg_noticia_tema" vertex="1" connectable="0">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-20" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agg_etema_tema" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tema" target="etema" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="agg_etema_tema_t0" value="1..1" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="agg_etema_tema" vertex="1" connectable="0">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agg_etema_tema_t1" value="1..*" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;" parent="agg_etema_tema" vertex="1" connectable="0">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="34" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
