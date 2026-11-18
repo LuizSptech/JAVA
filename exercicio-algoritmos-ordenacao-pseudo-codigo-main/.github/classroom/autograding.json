@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "BubbleSort - Testes",
+      "setup": "mvn clean compile -Dfile.encoding=UTF-8",
+      "run": "mvn test -Dfile.encoding=UTF-8 -Dtest=OrdenacaoTest#testBubbleSort",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 20,
+      "points": 1
+    },
+    {
+      "name": "SelectionSort - Testes",
+      "setup": "mvn clean compile -Dfile.encoding=UTF-8",
+      "run": "mvn test -Dfile.encoding=UTF-8 -Dtest=OrdenacaoTest#testSelectionSort",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 20,
+      "points": 1
+    },
+    {
+      "name": "SelectionSortOtimizado - Testes",
+      "setup": "mvn clean compile -Dfile.encoding=UTF-8",
+      "run": "mvn test -Dfile.encoding=UTF-8 -Dtest=OrdenacaoTest#testSelectionSortOtimizado",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 20,
+      "points": 1
+    },
+    {
+      "name": "InsertionSort - Testes",
+      "setup": "mvn clean compile -Dfile.encoding=UTF-8",
+      "run": "mvn test -Dfile.encoding=UTF-8 -Dtest=OrdenacaoTest#testInsertionSort",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 20,
+      "points": 1
+    }
+  ]
+}
