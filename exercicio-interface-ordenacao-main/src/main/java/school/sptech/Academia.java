@@ -63,28 +63,194 @@ public class Academia {
 
     void matricular(String nomeAluno, String nomePlano) {
 
+        Plano planoEncontrado = null;
+        Aluno alunoEncontrado = null;
 
 
+        for (Plano plano : planos) {
+            if (plano.getNome().equalsIgnoreCase(nomePlano)) {
+                planoEncontrado = plano;
+                break;
+            }
+        }
+        if (planoEncontrado == null) {
+            throw new NaoEncontradoException();
+        }
+        for (Aluno aluno : alunos) {
+            if (aluno.getNome().equalsIgnoreCase(nomeAluno)) {
+                alunoEncontrado = aluno;
+                break;
+            }
+        }
+        if (alunoEncontrado == null) {
+            throw new NaoEncontradoException();
+        }
+
+
+        alunoEncontrado.matricular(planoEncontrado);
+    }
+
+    void agendar(String nomeAluno, Agendavel agendavel) {
+
+        if (agendavel == null) {
+            throw new DadoInvalidoException();
+        }
+        Aluno alunoEncontrado = null;
+
+        for (Aluno aluno : alunos) {
+            if (aluno.getNome().equalsIgnoreCase(nomeAluno)) {
+                alunoEncontrado = aluno;
+                break;
+            }
+        }
+
+        if (alunoEncontrado == null) {
+            throw new NaoEncontradoException();
+        }
+
+        if (alunoEncontrado.getAgendamentos().contains(agendavel)) {
+            throw new DadoInvalidoException();
+        }
+
+        agendavel.reservarVaga();
+
+        alunoEncontrado.getAgendamentos().add(agendavel);
     }
 
 
+    List<Plano> buscarPlanos(String texto) {
+
+        List<Plano> planosEncontrados = new ArrayList<>();
 
 
+        if (texto == null) {
+            return planosEncontrados;
+        }
 
 
-public String getNome() {
-    return nome;
-}
+        for (Plano plano : planos) {
 
-public List<Plano> getPlanos() {
-    return planos;
-}
+            if (plano.getNome().toLowerCase().contains(texto.toLowerCase())) {
+                planosEncontrados.add(plano);
+            }
+        }
 
-public List<Aluno> getAlunos() {
-    return alunos;
-}
+        return planosEncontrados;
+    }
 
-public List<AvaliacaoFisica> getAvaliacoes() {
-    return avaliacoes;
-}
-}
+
+    Double calcularFaturamentoMensal() {
+
+        Double faturamento = 0.0;
+
+        for (Aluno aluno : alunos) {
+
+            if (aluno.getPlano() != null) {
+                faturamento += aluno.getPlano().calcularMensalidade();
+            }
+
+        }
+
+        return faturamento;
+    }
+
+    List<Agendavel> buscarAgendaveisComVagas() {
+
+        List<Agendavel> agendaveisEncontrados = new ArrayList<>();
+
+
+        for (Plano plano : planos) {
+            if (plano instanceof Agendavel) {
+                Agendavel agendavel = (Agendavel) plano;
+
+                if (agendavel.getVagasDisponiveis() > 0) {
+                    agendaveisEncontrados.add(agendavel);
+                }
+            }
+        }
+
+
+        for (AvaliacaoFisica avaliacao : avaliacoes) {
+            if (avaliacao.getVagasDisponiveis() > 0) {
+                agendaveisEncontrados.add(avaliacao);
+            }
+        }
+
+        return agendaveisEncontrados;
+    }
+
+
+    List<String> getNomesAlunosOrdenados() {
+
+        List<String> nomes = new ArrayList<>();
+
+
+        for (Aluno aluno : alunos) {
+            nomes.add(aluno.getNome());
+        }
+
+
+        for (int i = 0; i < nomes.size() - 1; i++) {
+
+            for (int j = 0; j < nomes.size() - 1 - i; j++) {
+
+                if (nomes.get(j).compareToIgnoreCase(nomes.get(j + 1)) > 0) {
+
+                    String auxiliar = nomes.get(j);
+
+                    nomes.set(j, nomes.get(j + 1));
+
+                    nomes.set(j + 1, auxiliar);
+                }
+            }
+        }
+
+        return nomes;
+    }
+
+    List<Plano> ordenarPlanosPorMensalidade() {
+
+        List<Plano> planosOrdenados = new ArrayList<>(planos);
+
+
+        for (int i = 0; i < planosOrdenados.size() - 1; i++) {
+
+            for (int j = 0; j < planosOrdenados.size() - 1 - i; j++) {
+
+                if (planosOrdenados.get(j).calcularMensalidade() >
+                        planosOrdenados.get(j + 1).calcularMensalidade()) {
+
+                    Plano auxiliar = planosOrdenados.get(j);
+
+                    planosOrdenados.set(j, planosOrdenados.get(j + 1));
+
+                    planosOrdenados.set(j + 1, auxiliar);
+                }
+            }
+        }
+
+        return planosOrdenados;
+    }
+
+    List<Agendavel> ordenarAgendaveisPorCapacidade(){
+        return null;
+    }
+
+        public String getNome () {
+            return nome;
+        }
+
+        public List<Plano> getPlanos () {
+            return planos;
+        }
+
+        public List<Aluno> getAlunos () {
+            return alunos;
+        }
+
+        public List<AvaliacaoFisica> getAvaliacoes () {
+            return avaliacoes;
+        }
+
+
+    }
